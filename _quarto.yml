@@ -3,14 +3,12 @@ project:
   output-dir: docs
 
 book:
-  title: "padl-project.github.oi"
-  author: "Jane Doe"
-  date: "12/20/2022"
+  title: "Palmyra Atoll Data Library"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - basic-concepts.qmd
+    - metadata-templates.qmd
 
 bibliography: references.bib
 

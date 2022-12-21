@@ -1,9 +1,15 @@
-# Introduction
+# PADL Publishing Data Guide
 
-This is a book created from markdown and executable code.
+We created this guide to help you document your data in a way that facilitates the process of publishing your data to EDI. Here we will describe what you need to do to make your data publicly available through the EDI repository.
 
-See @knuth84 for additional discussion of literate programming.
+### Why publish your data?
 
-```{r}
-1 + 1
-```
+-   Data are among the most valuable outputs of research
+
+-   If no-one can access these data, all the data collection is a shocking waste of resources.
+
+-   Aggregate and synthesis of data from different contexts is essential to establishing broader ecological knowledge and informing conservation management
+
+-   Long-term data are essential to understand historical patterns and baselines in a changing world
+
+-   Know about and have access to research done in the past

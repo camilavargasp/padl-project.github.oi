@@ -1,9 +1,9 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+### Welcome!
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.
 
-```{r}
-1 + 1
-```
+We believe that facilitating access to research and its associated data will amplify academic discussions, help other researchers, and further inform management and policy decisions being made in Palmyra and other tropical ecosystems.
+
+We are working with the [[Environmental Data Initiative (EDI)](https://edirepository.org/), an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.
