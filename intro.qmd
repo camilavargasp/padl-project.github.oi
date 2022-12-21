@@ -1,15 +1,17 @@
-# PADL Publishing Data Guide
+# PADL Publishing Data Guide {.unnumbered}
 
-We created this guide to help you document your data in a way that facilitates the process of publishing your data to EDI. Here we will describe what you need to do to make your data publicly available through the EDI repository.
+We created this guide to help you document your data in a way that facilitates the process of publishing your data or metadata to EDI. Here we describe what you need to do to make your data publicly available through the EDI repository.
 
-### Why publish your data?
+::: callout-note
+We understand that EDi is not suitable to all data. If you are planning to publish you data elsewhere we ask to please follow EDI metadata standards presented in this guide.
+:::
 
--   Data are among the most valuable outputs of research
+### What to expect from this guide
 
--   If no-one can access these data, all the data collection is a shocking waste of resources.
+-   The goal of this guide is for you to know what you need to do to be in compliance with TNC Palmyra Data Sharing Agreement.
+-   Here we go in-depth on how to publish your data using the [ezEML](https://ezeml.edirepository.org/eml/) tool suite developed by the Environmental Data Initiative [(EDI)](https://edirepository.org/).
+-   We also provide metadata templates for you to know and plan on documenting your data from the get go.
+-   We highly recommend to have a plan for collecting your metadata since the beginning of your research life cycle.
+-   According to EDI's experience "continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes".
 
--   Aggregate and synthesis of data from different contexts is essential to establishing broader ecological knowledge and informing conservation management
-
--   Long-term data are essential to understand historical patterns and baselines in a changing world
-
--   Know about and have access to research done in the past
+[![from edirepository.org, Creating Metadata During the Research Life Cycle](pics/metadata-in-the-research-life-cycle.png)](https://edirepository.org/resources/creating-metadata-during-the-research-lifecycle)

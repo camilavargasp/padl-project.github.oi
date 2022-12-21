@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Palmyra Atoll Data Library - 1&nbsp; PADL Publishing Data Guide</title>
+<title>Palmyra Atoll Data Library - PADL Publishing Data Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PADL Publishing Data Guide</span></h1>
+      <h1 class="quarto-secondary-nav-title">PADL Publishing Data Guide</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -90,17 +90,17 @@ ul.task-list{list-style: none;}
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PADL Publishing Data Guide</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">PADL Publishing Data Guide</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basic-concepts.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic Concepts</span></a>
+  <a href="./basic-concepts.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basic Concepts</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -117,7 +117,7 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-publish-your-data" id="toc-why-publish-your-data" class="nav-link active" data-scroll-target="#why-publish-your-data"> <span class="header-section-number">1.0.1</span> Why publish your data?</a></li>
+  <li><a href="#what-to-expect-from-this-guide" id="toc-what-to-expect-from-this-guide" class="nav-link active" data-scroll-target="#what-to-expect-from-this-guide">What to expect from this guide</a></li>
   </ul>
 </nav>
     </div>
@@ -126,7 +126,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">PADL Publishing Data Guide</span></h1>
+<h1 class="title d-none d-lg-block">PADL Publishing Data Guide</h1>
 </div>
 
 
@@ -140,16 +140,35 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>We created this guide to help you document your data in a way that facilitates the process of publishing your data to EDI. Here we will describe what you need to do to make your data publicly available through the EDI repository.</p>
-<section id="why-publish-your-data" class="level3" data-number="1.0.1">
-<h3 data-number="1.0.1" class="anchored" data-anchor-id="why-publish-your-data"><span class="header-section-number">1.0.1</span> Why publish your data?</h3>
+<p>We created this guide to help you document your data in a way that facilitates the process of publishing your data or metadata to EDI. Here we describe what you need to do to make your data publicly available through the EDI repository.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We understand that EDi is not suitable to all data. If you are planning to publish you data elsewhere we ask to please follow EDI metadata standards presented in this guide.</p>
+</div>
+</div>
+<section id="what-to-expect-from-this-guide" class="level3">
+<h3 class="anchored" data-anchor-id="what-to-expect-from-this-guide">What to expect from this guide</h3>
 <ul>
-<li><p>Data are among the most valuable outputs of research</p></li>
-<li><p>If no-one can access these data, all the data collection is a shocking waste of resources.</p></li>
-<li><p>Aggregate and synthesis of data from different contexts is essential to establishing broader ecological knowledge and informing conservation management</p></li>
-<li><p>Long-term data are essential to understand historical patterns and baselines in a changing world</p></li>
-<li><p>Know about and have access to research done in the past</p></li>
+<li>The goal of this guide is for you to know what you need to do to be in compliance with TNC Palmyra Data Sharing Agreement.</li>
+<li>Here we go in-depth on how to publish your data using the <a href="https://ezeml.edirepository.org/eml/">ezEML</a> tool suite developed by the Environmental Data Initiative <a href="https://edirepository.org/">(EDI)</a>.</li>
+<li>We also provide metadata templates for you to know and plan on documenting your data from the get go.</li>
+<li>We highly recommend to have a plan for collecting your metadata since the beginning of your research life cycle.</li>
+<li>According to EDI’s experience “continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes”.</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://edirepository.org/resources/creating-metadata-during-the-research-lifecycle"><img src="pics/metadata-in-the-research-life-cycle.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">from edirepository.org, Creating Metadata During the Research Life Cycle</figcaption><p></p>
+</figure>
+</div>
 
 
 </section>
@@ -255,12 +274,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./basic-concepts.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basic Concepts</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basic Concepts</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
