@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Palmyra Atoll Data Library",
+    "title": "Palmyra Atoll Data Library User Guide",
     "section": "",
-    "text": "The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.\nWe believe that facilitating access to research and its associated data will amplify academic discussions, help other researchers, and further inform management and policy decisions being made in Palmyra and other tropical ecosystems.\nWe are working with the Environmental Data Initiative (EDI), an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.\n\n\nWe want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.\n\n\n\n\n\n\nNote\n\n\n\nThis guide borrows heavily from EDI resources, CAP LTER Getting Started Guide and NCEAS coreR curriculum. Check out the links and see complete citation on the reference section."
+    "text": "The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.\nWe believe that facilitating access to research and its associated data will amplify academic discussions, help other researchers, and further inform management and policy decisions being made in Palmyra and other tropical ecosystems.\nWe are working with the Environmental Data Initiative (EDI), an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.\n\n\nWe want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.\n\n\n\n\n\n\nCredits\n\n\n\nThis guide borrows heavily from EDI resources, CAP LTER Getting Started Guide and NCEAS coreR curriculum. Check out the links and see complete citation on the reference section."
   },
   {
     "objectID": "content/about-this-guide.html",
@@ -30,99 +30,106 @@
   {
     "objectID": "content/metadata.html",
     "href": "content/metadata.html",
-    "title": "1  Metadata Components",
+    "title": "Metadata Components",
     "section": "",
     "text": "This section describes of the most relevant components of the EML. The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this along the way."
   },
   {
     "objectID": "content/metadata.html#title",
     "href": "content/metadata.html#title",
-    "title": "1  Metadata Components",
-    "section": "1.1 Title",
-    "text": "1.1 Title\nEvery data package needs a Title. Data packages title should be informative and provide helpful context about the dataset. Title should inform about the temporal and geographic extent of the data.\n\n\n\n\n\n\nExample\n\n\n\nActivity budgets and space use for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014."
+    "title": "Metadata Components",
+    "section": "Title",
+    "text": "Title\nEvery data package needs a Title. Data packages title should be informative and provide helpful context about the dataset. Title should inform about the temporal and geographic extent of the data.\n\n\n\n\n\n\nExample\n\n\n\nActivity budgets and space use for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014."
   },
   {
     "objectID": "content/metadata.html#data-tables",
     "href": "content/metadata.html#data-tables",
-    "title": "1  Metadata Components",
-    "section": "1.2 Data Tables",
-    "text": "1.2 Data Tables\nThis are all the tabular data to be included in your data package, saved as a CSV (comma-separated value) text file. Each data table in your package needs to be documented and described with the the following information.\n\nGeneral information of a data table\n\n\nName of the data table\nShort description\nFile name\n\nFollowing our example, the table below shows the information for the three data table in the parrotfish data package.\n\n\n\n\n\n\n\n\nData table title\nData table description\nFile name\n\n\n\n\nChlorurus Activity Palmyra 2014\nReports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus\nChlorurus_Activity_Palmyra_2014.csv\n\n\nChlorurus Area Palmyra 2014\nCovers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring\nChlorurus_Area_Palmyra_2014.csv\n\n\nFish Information Chlorurus Data\nTotal length and phase for each individual in our study\nFish_Information_Chlorurus_Data_2014.csv\n\n\n\n\nColumn properties It is necessary to describe the content of each data table with the following information.\n\n\nColumn name\nDefinition of the column (what is each variable)\nType of data (Numeric, Text, Categorical, DateTime)\nIf numeric provide units\nThe precision of measurement (optional)\nFormat of dates (eg. YYY-MM-DD)\nIf there is missing values how are they coded (optional)\nExplanation of why are there missing values (optional)\n\n\n\n\n\n\n\nNote\n\n\n\nezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the type of data in each column.\n\n\n\nDefining codes in categorical variable Each of the unique categories or codes in a categorical variable needs a description about what they mean."
+    "title": "Metadata Components",
+    "section": "Data Tables",
+    "text": "Data Tables\nThis are all the tabular data to be included in your data package, saved as a CSV (comma-separated value) text file. Each data table in your package needs to be documented and described with the the following information.\n\nGeneral information of a data table\n\n\nName of the data table\nShort description\nFile name\n\nFollowing our example, the table below shows the information for the three data table in the parrotfish data package."
+  },
+  {
+    "objectID": "content/metadata.html#example-1",
+    "href": "content/metadata.html#example-1",
+    "title": "Metadata Components",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\n\n\n\nData table title\nData table description\nFile name\n\n\n\n\nChlorurus Activity Palmyra 2014\nReports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus\nChlorurus_Activity_Palmyra_2014.csv\n\n\n\nFish Information Chlorurus Data | Total length and phase for each individual in our study | Fish_Information_Chlorurus_Data_2014.csv |"
   },
   {
     "objectID": "content/metadata.html#participants-and-personnel",
     "href": "content/metadata.html#participants-and-personnel",
-    "title": "1  Metadata Components",
-    "section": "1.3 Participants and Personnel",
-    "text": "1.3 Participants and Personnel\nThere are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is basically the same, and allows providing the usual details, such as name, salutation, and address.\nThe categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization id - Position Name - Email - Address - Phone\nYou can provide information as desired but please be sure to at least provide full name, email, organization and ORICI ID if available for each person.\n\n1.3.1 Creators\nCreators are the dataset authors and/or primary project contributors. Dataset creator is equivalent to the author of a journal article or book. Just as with a journal or book, order matters and the creators should be listed in the order to which they contributed to the project or dataset. These name will be part of the citation of the data package.\n\n\n1.3.2 Contacts\nAny correspondence about the dataset will be sent to this person.\n\n\n1.3.3 Associated Parties\nPeople who contributed to the project in some way but who are not considered dataset authors. Someone who helped with some of the field or lab work, or who were involved with the overall project but not this particular dataset would be good examples of an associated party.\n\n\n1.3.4 Metadata Providers\nYou! Presuming that you are a dataset author. Or anyone that is well versed witht the data to provide all the detailed metadata."
+    "title": "Metadata Components",
+    "section": "Participants and Personnel",
+    "text": "Participants and Personnel\nThere are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is basically the same, and allows providing the usual details, such as name, salutation, and address.\nThe categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization id - Position Name - Email - Address - Phone\nYou can provide information as desired but please be sure to at least provide full name, email, organization and ORICI ID if available for each person.\n\nCreators\nCreators are the dataset authors and/or primary project contributors. Dataset creator is equivalent to the author of a journal article or book. Just as with a journal or book, order matters and the creators should be listed in the order to which they contributed to the project or dataset. These name will be part of the citation of the data package.\n\n\nContacts\nAny correspondence about the dataset will be sent to this person.\n\n\nAssociated Parties\nPeople who contributed to the project in some way but who are not considered dataset authors. Someone who helped with some of the field or lab work, or who were involved with the overall project but not this particular dataset would be good examples of an associated party.\n\n\nMetadata Providers\nYou! Presuming that you are a dataset author. Or anyone that is well versed witht the data to provide all the detailed metadata."
   },
   {
     "objectID": "content/metadata.html#abstract",
     "href": "content/metadata.html#abstract",
-    "title": "1  Metadata Components",
-    "section": "1.4 Abstract",
-    "text": "1.4 Abstract\nDescription and overview of the data package. This abstract is analogous to the abstract of a journal article, but specifically the data. There are not character limitations so please be generous with details. Include what, why, where, when, and how of this data package.\n\n\n\n\n\n\nWarning\n\n\n\nYou cannot use the same text from the abstract of a published work as the abstract of your data package. This can cause copyright infringement. If your data package is associated with a journal article, your data package abstract need to be different than the one in the article.\n\n\n\n1.4.1 Example\nData was collected at Palmyra Atoll National Wildlife Refuge located in the Central Pacific in 2014, and the work focuses on two species of Parrotfish, Chlorurus microrhinos and Chlorurus spilurus (formerly Cholrurus sordidus). For C. microrhinos, the project was designed to collect fine-scale spatial behavior data, focusing on territory size, species interactions, and benthic impact (i.e. feeding behavior). Focal follow data was collected by one or two observer(s), either on snorkel or SCUBA, and recording focal activity down to the second. Simultaneously, the observer would be towing a GPS that was recording a location every 5 seconds and each location was then associated with a particular behavior. Throughout this study individual fish were identifiable and successive follows were possible on individuals. For C. spilurus the focus of the project was to collect behavioral time budget data on feeding, territorial defense, and spawning behavior. The ‘Chlorurus_Area_Palmyra_2014.csv’ data only covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring. We also report the step length between successive points for the entire follow as well as where feeding was occurring.\nThe ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in ’Fish_Information_Chlorurus_Data_2014.csv."
+    "title": "Metadata Components",
+    "section": "Abstract",
+    "text": "Abstract\nDescription and overview of the data package. This abstract is analogous to the abstract of a journal article, but specifically the data. There are not character limitations so please be generous with details. Include what, why, where, when, and how of this data package.\n\n\n\n\n\n\nWarning\n\n\n\nYou cannot use the same text from the abstract of a published work as the abstract of your data package. This can cause copyright infringement. If your data package is associated with a journal article, your data package abstract need to be different than the one in the article.\n\n\n\n\n\n\n\n\nExample\n\n\n\nData was collected at Palmyra Atoll National Wildlife Refuge located in the Central Pacific in 2014, and the work focuses on two species of Parrotfish, Chlorurus microrhinos and Chlorurus spilurus (formerly Cholrurus sordidus). For C. microrhinos, the project was designed to collect fine-scale spatial behavior data, focusing on territory size, species interactions, and benthic impact (i.e. feeding behavior). Focal follow data was collected by one or two observer(s), either on snorkel or SCUBA, and recording focal activity down to the second. Simultaneously, the observer would be towing a GPS that was recording a location every 5 seconds and each location was then associated with a particular behavior. Throughout this study individual fish were identifiable and successive follows were possible on individuals. For C. spilurus the focus of the project was to collect behavioral time budget data on feeding, territorial defense, and spawning behavior. The ‘Chlorurus_Area_Palmyra_2014.csv’ data only covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring. We also report the step length between successive points for the entire follow as well as where feeding was occurring.\nThe ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in ’Fish_Information_Chlorurus_Data_2014.csv."
   },
   {
     "objectID": "content/metadata.html#keywords",
     "href": "content/metadata.html#keywords",
-    "title": "1  Metadata Components",
-    "section": "1.5 Keywords",
-    "text": "1.5 Keywords\nYou can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data’s future discovery and reuse.\nThe LTER CV is a good source for keywords. Access the LTER CV here. Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)\nPADL request to please include “Palmyra Atoll” as a keyword so we can keep track of all the data package in our library."
+    "title": "Metadata Components",
+    "section": "Keywords",
+    "text": "Keywords\nYou can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data’s future discovery and reuse.\nThe LTER CV is a good source for keywords. Access the LTER CV here. Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)\nPADL request to please include “Palmyra Atoll” as a keyword so we can keep track of all the data package in our library."
   },
   {
     "objectID": "content/metadata.html#intellectual-rights",
     "href": "content/metadata.html#intellectual-rights",
-    "title": "1  Metadata Components",
-    "section": "1.6 Intellectual Rights",
-    "text": "1.6 Intellectual Rights\nEDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data\nThe options are - Creative Commons CC0 1.0 “No Rights Reserved” - Less restrictive, no copy rights. You dedicate your data to the public domain.\n\nCreative Commons license - Attribution - CCBY - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit."
+    "title": "Metadata Components",
+    "section": "Intellectual Rights",
+    "text": "Intellectual Rights\nEDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data\nThe options are - Creative Commons CC0 1.0 “No Rights Reserved” - Less restrictive, no copy rights. You dedicate your data to the public domain.\n\nCreative Commons license - Attribution - CCBY - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit."
   },
   {
     "objectID": "content/metadata.html#geographic-coverage",
     "href": "content/metadata.html#geographic-coverage",
-    "title": "1  Metadata Components",
-    "section": "1.7 Geographic Coverage",
-    "text": "1.7 Geographic Coverage\nHere you present the physical location associated either with data collection (e.g., field work), data analyses (e.g., spatial extent of a model), or both. You can provide this information in different ways.\n\nProvide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.\nProvide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.\n\nThe second option is more information rich but not always necessary or relevant. Either approach is acceptable.\n\nCoordinates must be provided as latitude and longitude in decimal degrees."
+    "title": "Metadata Components",
+    "section": "Geographic Coverage",
+    "text": "Geographic Coverage\nHere you present the physical location associated either with data collection (e.g., field work), data analyses (e.g., spatial extent of a model), or both. You can provide this information in different ways.\n\nProvide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.\nProvide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.\n\nThe second option is more information rich but not always necessary or relevant. Either approach is acceptable.\n\nCoordinates must be provided as latitude and longitude in decimal degrees."
   },
   {
     "objectID": "content/metadata.html#temporal-coverage",
     "href": "content/metadata.html#temporal-coverage",
-    "title": "1  Metadata Components",
-    "section": "1.8 Temporal Coverage",
-    "text": "1.8 Temporal Coverage\nInformation about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, , and should not include time spent, for example, analyzing data. You can provide a specific day or a year."
+    "title": "Metadata Components",
+    "section": "Temporal Coverage",
+    "text": "Temporal Coverage\nInformation about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, , and should not include time spent, for example, analyzing data. You can provide a specific day or a year."
   },
   {
     "objectID": "content/metadata.html#taxonimic-coverage",
     "href": "content/metadata.html#taxonimic-coverage",
-    "title": "1  Metadata Components",
-    "section": "1.9 Taxonimic Coverage",
-    "text": "1.9 Taxonimic Coverage\n“If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.\nFor each taxon, highlight the scientific name and taxonomic resolution of the organism using the Taxon Scientific Name and Taxon Rank drop-down lists, respectively. Details of most organisms are available through ITIS but draw upon different taxonomic authorities with the Taxonomic Authority drop-down if appropriate. Once you have identified the details, use the Fill Heirarchy button to have ezEML construct a full taxonomy for the organism. Save and Continue, then repeat for each taxon.”\nFROM CAP LTER! NEED TO ADAPT"
+    "title": "Metadata Components",
+    "section": "Taxonimic Coverage",
+    "text": "Taxonimic Coverage\n“If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.\nFor each taxon, highlight the scientific name and taxonomic resolution of the organism using the Taxon Scientific Name and Taxon Rank drop-down lists, respectively. Details of most organisms are available through ITIS but draw upon different taxonomic authorities with the Taxonomic Authority drop-down if appropriate. Once you have identified the details, use the Fill Heirarchy button to have ezEML construct a full taxonomy for the organism. Save and Continue, then repeat for each taxon.”\nFROM CAP LTER! NEED TO ADAPT"
   },
   {
     "objectID": "content/metadata.html#maintenance",
     "href": "content/metadata.html#maintenance",
-    "title": "1  Metadata Components",
-    "section": "1.10 Maintenance",
-    "text": "1.10 Maintenance\nMention here if the data collection is completed or ongoing. If it is an ongoing project, it is recommended to mention how frequently this package is going to be maintained. If needed, you can add any other necessary information about the maintenance of the data package."
+    "title": "Metadata Components",
+    "section": "Maintenance",
+    "text": "Maintenance\nMention here if the data collection is completed or ongoing. If it is an ongoing project, it is recommended to mention how frequently this package is going to be maintained. If needed, you can add any other necessary information about the maintenance of the data package."
   },
   {
     "objectID": "content/metadata.html#methods",
     "href": "content/metadata.html#methods",
-    "title": "1  Metadata Components",
-    "section": "1.11 Methods",
-    "text": "1.11 Methods\nDescribe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations."
+    "title": "Metadata Components",
+    "section": "Methods",
+    "text": "Methods\nDescribe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations."
   },
   {
     "objectID": "content/metadata.html#project",
     "href": "content/metadata.html#project",
-    "title": "1  Metadata Components",
-    "section": "1.12 Project",
-    "text": "1.12 Project\nIf desired here you document the information about the project this data is part of.\nFiled in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url\nYou can also add detailed information about project personnel. Fields in this section are similar to the Participants section."
+    "title": "Metadata Components",
+    "section": "Project",
+    "text": "Project\nIf desired here you document the information about the project this data is part of.\nFiled in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url\nYou can also add detailed information about project personnel. Fields in this section are similar to the Participants section."
   },
   {
     "objectID": "content/metadata.html#other-entities",
     "href": "content/metadata.html#other-entities",
-    "title": "1  Metadata Components",
-    "section": "1.13 Other Entities",
-    "text": "1.13 Other Entities\nAny other file that is not a data table (tabular data) can be part of your data package as “other entity”. This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.\n\n\n\n\n\n\nImportant\n\n\n\nMENTION SOMTHING ABOUT SPATIAL DATA\n\n\nFor each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format\n\n\n\n\n\n\nNote\n\n\n\nSimilar to Data Tables, your can upload your file to ezEML and it will aromatically identify some of the metadata for this entity."
+    "title": "Metadata Components",
+    "section": "Other Entities",
+    "text": "Other Entities\nAny other file that is not a data table (tabular data) can be part of your data package as “other entity”. This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.\n\n\n\n\n\n\nWarning\n\n\n\nMENTION SOMTHING ABOUT SPATIAL DATA\n\n\nFor each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format\n\n\n\n\n\n\nTip\n\n\n\nSimilar to Data Tables, your can upload your file to ezEML and it will aromatically identify some of the metadata for this entity."
   }
 ]

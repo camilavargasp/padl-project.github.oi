@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Palmyra Atoll Data Library"
+  title: "Palmyra Atoll Data Library User Guide"
   chapters:
     - index.qmd
     - content/about-this-guide.qmd

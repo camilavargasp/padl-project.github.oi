@@ -1,4 +1,4 @@
-# Metadata Components
+# Metadata Components {.unnumbered}
 
 This section describes of the most relevant components of the EML. The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this along the way.
 
@@ -24,11 +24,15 @@ This are all the tabular data to be included in your data package, saved as a CS
 
 Following our example, the table below shows the information for the three data table in the parrotfish data package.
 
+::: collout-note
+## Example
+
 | Data table title                | Data table description                                                                                                                                  | File name                                |
 |-----------------------|-------------------------------|------------------|
 | Chlorurus Activity Palmyra 2014 | Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus             | Chlorurus_Activity_Palmyra_2014.csv      |
-| Chlorurus Area Palmyra 2014     | Covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring | Chlorurus_Area_Palmyra_2014.csv          |
+
 | Fish Information Chlorurus Data | Total length and phase for each individual in our study                                                                                                 | Fish_Information_Chlorurus_Data_2014.csv |
+:::
 
 2.  Column properties It is necessary to describe the content of each data table with the following information.
 
@@ -41,7 +45,7 @@ Following our example, the table below shows the information for the three data 
 -   If there is missing values how are they coded (optional)
 -   Explanation of why are there missing values (optional)
 
-::: callout-note
+::: callout-tip
 ezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the *type* of data in each column.
 :::
 
@@ -79,34 +83,37 @@ Description and overview of the data package. This abstract is analogous to the 
 You cannot use the same text from the abstract of a published work as the abstract of your data package. This can cause copyright infringement. If your data package is associated with a journal article, your data package abstract need to be different than the one in the article.
 :::
 
-### Example
+::: callout-note
+## Example
 
 Data was collected at Palmyra Atoll National Wildlife Refuge located in the Central Pacific in 2014, and the work focuses on two species of Parrotfish, Chlorurus microrhinos and Chlorurus spilurus (formerly Cholrurus sordidus). For C. microrhinos, the project was designed to collect fine-scale spatial behavior data, focusing on territory size, species interactions, and benthic impact (i.e. feeding behavior). Focal follow data was collected by one or two observer(s), either on snorkel or SCUBA, and recording focal activity down to the second. Simultaneously, the observer would be towing a GPS that was recording a location every 5 seconds and each location was then associated with a particular behavior. Throughout this study individual fish were identifiable and successive follows were possible on individuals. For C. spilurus the focus of the project was to collect behavioral time budget data on feeding, territorial defense, and spawning behavior. The 'Chlorurus_Area_Palmyra_2014.csv' data only covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring. We also report the step length between successive points for the entire follow as well as where feeding was occurring.\
 The 'Chlorurus_Activity_Palmyra_2014.csv' is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in 'Fish_Information_Chlorurus_Data_2014.csv.
+:::
+
 
 ## Keywords
-You can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data's future discovery and reuse.  
 
-The LTER CV is a good source for keywords. Access the [LTER CV here](https://vocab.lternet.edu/vocab/vocab/index.php).  Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)
+You can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data's future discovery and reuse.
 
-PADL request to please include "Palmyra Atoll" as a keyword so we can keep track of all the data package in our library. 
+The LTER CV is a good source for keywords. Access the [LTER CV here](https://vocab.lternet.edu/vocab/vocab/index.php). Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)
+
+PADL request to please include "Palmyra Atoll" as a keyword so we can keep track of all the data package in our library.
 
 ## Intellectual Rights
+
 EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data
 
-The options are
-- [Creative Commons CC0 1.0 "No Rights Reserved"](https://creativecommons.org/publicdomain/zero/1.0/) - Less restrictive, no copy rights. You dedicate your data to the public domain.
+The options are - [Creative Commons CC0 1.0 "No Rights Reserved"](https://creativecommons.org/publicdomain/zero/1.0/) - Less restrictive, no copy rights. You dedicate your data to the public domain.
 
-- [Creative Commons license - Attribution - CCBY](https://creativecommons.org/licenses/by/4.0/) - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit.
-
+-   [Creative Commons license - Attribution - CCBY](https://creativecommons.org/licenses/by/4.0/) - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit.
 
 ## Geographic Coverage
 
 Here you present the physical location associated either with data collection (e.g., field work), data analyses (e.g., spatial extent of a model), or both. You can provide this information in different ways.
 
-1. Provide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.
+1.  Provide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.
 
-2. Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.
+2.  Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.
 
 The second option is more information rich but not always necessary or relevant. Either approach is acceptable.
 
@@ -115,6 +122,7 @@ Coordinates must be provided as latitude and longitude in decimal degrees.
 :::
 
 ## Temporal Coverage
+
 Information about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, , and should not include time spent, for example, analyzing data. You can provide a specific day or a year.
 
 ## Taxonimic Coverage
@@ -127,41 +135,30 @@ For each taxon, highlight the scientific name and taxonomic resolution of the or
 
 ## Maintenance
 
-Mention here if the data collection is completed or ongoing. If it is an ongoing project, it is recommended to mention how frequently this package is going to be maintained.
-If needed, you can add any other necessary information about the maintenance of the data package.
+Mention here if the data collection is completed or ongoing. If it is an ongoing project, it is recommended to mention how frequently this package is going to be maintained. If needed, you can add any other necessary information about the maintenance of the data package.
 
 ## Methods
+
 Describe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations.
 
 ## Project
+
 If desired here you document the information about the project this data is part of.
 
-Filed in this section are
-- Project title
-- Project abstract
-- Funder name
-- Award title
-- Funder ID
-- Award url
+Filed in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url
 
 You can also add detailed information about project personnel. Fields in this section are similar to the Participants section.
-
 
 ## Other Entities
 
 Any other file that is not a data table (tabular data) can be part of your data package as "other entity". This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.
 
-::: callout-important
+::: callout-warning
 MENTION SOMTHING ABOUT SPATIAL DATA
 :::
 
-For each entity you want to include in your data package you have to define,
-- The type of file (generally the extension of the file, eg and R script would be R)
-- Short description about the entity
-- Name of the file
-- Format
+For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format
 
-::: callout-note
+::: callout-tip
 Similar to Data Tables, your can upload your file to ezEML and it will aromatically identify some of the metadata for this entity.
 :::
-
