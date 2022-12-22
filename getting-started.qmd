@@ -1,0 +1,36 @@
+# Getting Started {.unnumbered}
+
+## Basic Concepts
+
+**Data Package**
+
+-   EDI publishes data from the ecological and environmental sciences irrespective of funding origin.
+
+-   The *unit of publication* is called a data package.
+
+-   This is an assemblage of science metadata, the data it self, and any other file you want to publish with your data.
+
+-   The basic rule of thumb is to package your data in the form you would like to receive it.
+
+-   Each data package is assigned a Digital Object Identifier (DOI) and published in the repository for future use.
+
+-   EDI resources on [data packages](https://edirepository.org/resources/the-data-package)
+
+**Metadata**
+
+-   The metadata is the data that provides information about your data. It describe the structure, content, and context of your data.
+-   They are vital to the discovery and reuse of data, and are a required element of a data package.
+-   EDI resources on [Creating Metadata for a Data Package](https://edirepository.org/resources/creating-metadata-for-publication)
+
+**Ecological Metadata Language (EML)**
+
+-   EDI uses the Ecological Metadata Language (EML) format to document the metadata in each data package.
+-   "EML provides a comprehensive vocabulary and a readable XML markup syntax for documenting research data. It is a community-maintained specification, and evolves to meet the data documentation needs of researchers who want to openly document, preserve, and share data and outputs" ([Jones et al, 2019](https://eml.ecoinformatics.org/)).
+
+**ezEML**
+
+-   EDI created a user-friendly tool that streamlined the process of the creating metadata in the Ecological Metadata Language (EML).
+
+-   ezEML is a form-based online application that leads the user through EML document creation step by step.
+
+-   Check out EDI [ezEML User Guide](https://ezeml.edirepository.org/eml/user_guide) for more information.

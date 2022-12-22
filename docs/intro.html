@@ -25,7 +25,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./basic-concepts.html" rel="next">
+<link href="./getting-started.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -100,9 +100,29 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basic-concepts.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basic Concepts</span></a>
+  <a href="./getting-started.html" class="sidebar-item-text sidebar-link">Getting Started</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tidy-data.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Notes about Tidy Data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./how-to-ezeml.html" class="sidebar-item-text sidebar-link">How to ezEML</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./set-up.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Set Up</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./metadata-templates.html" class="sidebar-item-text sidebar-link">References</a>
@@ -141,6 +161,35 @@ ul.task-list{list-style: none;}
 </header>
 
 <p>We created this guide to help you document your data in a way that facilitates the process of publishing your data or metadata to EDI. Here we describe what you need to do to make your data publicly available through the EDI repository.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We understand that EDi is not suitable to all data. If you are planning to publish you data elsewhere we ask to please collect the metadata following EDI metadata standards presented in this guide.</p>
+</div>
+</div>
+<section id="what-to-expect-from-this-guide" class="level3">
+<h3 class="anchored" data-anchor-id="what-to-expect-from-this-guide">What to expect from this guide</h3>
+<ul>
+<li>The goal of this guide is for you to know what you need to do to be in compliance with TNC Palmyra Data Sharing Agreement.</li>
+<li>CHECK: <em>We provide some orientation and tips for when planning your data collection and</em></li>
+<li>Go in-depth on how to publish your data using the <a href="https://ezeml.edirepository.org/eml/">ezEML</a> tool suite developed by the Environmental Data Initiative <a href="https://edirepository.org/">(EDI)</a>.</li>
+<li>We also provide metadata templates for you to know and plan on documenting your data from the get go.</li>
+<li>We highly recommend to have a plan for collecting your metadata since the beginning of your research life cycle.</li>
+<li>According to EDI experience “continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes”.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://edirepository.org/resources/creating-metadata-during-the-research-lifecycle"><img src="pics/metadata-in-the-research-life-cycle.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">from edirepository.org, Creating Metadata During the Research Life Cycle</figcaption><p></p>
+</figure>
+</div>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -151,23 +200,8 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>We understand that EDi is not suitable to all data. If you are planning to publish you data elsewhere we ask to please follow EDI metadata standards presented in this guide.</p>
+<p>This guide borrows heavily from <a href="https://edirepository.org/resources/resources-for-data-authors">EDI resources</a>, <a href="https://caplter.github.io/caplter_ezeml/#getting-started">CAP LTER Getting Started Guide</a> and <a href="https://www.nceas.ucsb.edu/learning-hub/core-r">NCEAS coreR curriculum</a>. See complete citation on the reference section.</p>
 </div>
-</div>
-<section id="what-to-expect-from-this-guide" class="level3">
-<h3 class="anchored" data-anchor-id="what-to-expect-from-this-guide">What to expect from this guide</h3>
-<ul>
-<li>The goal of this guide is for you to know what you need to do to be in compliance with TNC Palmyra Data Sharing Agreement.</li>
-<li>Here we go in-depth on how to publish your data using the <a href="https://ezeml.edirepository.org/eml/">ezEML</a> tool suite developed by the Environmental Data Initiative <a href="https://edirepository.org/">(EDI)</a>.</li>
-<li>We also provide metadata templates for you to know and plan on documenting your data from the get go.</li>
-<li>We highly recommend to have a plan for collecting your metadata since the beginning of your research life cycle.</li>
-<li>According to EDI’s experience “continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes”.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://edirepository.org/resources/creating-metadata-during-the-research-lifecycle"><img src="pics/metadata-in-the-research-life-cycle.png" class="img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">from edirepository.org, Creating Metadata During the Research Life Cycle</figcaption><p></p>
-</figure>
 </div>
 
 
@@ -278,8 +312,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./basic-concepts.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Basic Concepts</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./getting-started.html" class="pagination-link">
+        <span class="nav-page-text">Getting Started</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

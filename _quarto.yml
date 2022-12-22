@@ -7,7 +7,13 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - basic-concepts.qmd
+    - getting-started.qmd
+    - tidy-data.qmd
+    
+    - part: how-to-ezeml.qmd
+      chapters: 
+        - set-up.qmd
+        
     - metadata-templates.qmd
 
 bibliography: references.bib

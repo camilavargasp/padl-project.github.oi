@@ -6,8 +6,6 @@ We believe that facilitating access to research and its associated data will amp
 
 We are working with the [Environmental Data Initiative (EDI)](https://edirepository.org/), an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.
 
-
 ### Why PADL?
 
 We want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.
-

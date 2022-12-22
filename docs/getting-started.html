@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Palmyra Atoll Data Library</title>
+<title>Palmyra Atoll Data Library - Getting Started</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,7 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./tidy-data.html" rel="next">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,7 +65,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Palmyra Atoll Data Library</h1>
+      <h1 class="quarto-secondary-nav-title">Getting Started</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -89,7 +90,7 @@ ul.task-list{list-style: none;}
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Welcome</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -99,7 +100,7 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./getting-started.html" class="sidebar-item-text sidebar-link">Getting Started</a>
+  <a href="./getting-started.html" class="sidebar-item-text sidebar-link active">Getting Started</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -136,10 +137,7 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
-  <ul class="collapse">
-  <li><a href="#why-padl" id="toc-why-padl" class="nav-link" data-scroll-target="#why-padl">Why PADL?</a></li>
-  </ul></li>
+  <li><a href="#basic-concepts" id="toc-basic-concepts" class="nav-link active" data-scroll-target="#basic-concepts">Basic Concepts</a></li>
   </ul>
 </nav>
     </div>
@@ -148,7 +146,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Palmyra Atoll Data Library</h1>
+<h1 class="title d-none d-lg-block">Getting Started</h1>
 </div>
 
 
@@ -162,17 +160,36 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="welcome" class="level1 unnumbered">
-<h1 class="unnumbered">Welcome</h1>
-<p>The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.</p>
-<p>We believe that facilitating access to research and its associated data will amplify academic discussions, help other researchers, and further inform management and policy decisions being made in Palmyra and other tropical ecosystems.</p>
-<p>We are working with the <a href="https://edirepository.org/">Environmental Data Initiative (EDI)</a>, an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.</p>
-<section id="why-padl" class="level3">
-<h3 class="anchored" data-anchor-id="why-padl">Why PADL?</h3>
-<p>We want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.</p>
+<section id="basic-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="basic-concepts">Basic Concepts</h2>
+<p><strong>Data Package</strong></p>
+<ul>
+<li><p>EDI publishes data from the ecological and environmental sciences irrespective of funding origin.</p></li>
+<li><p>The <em>unit of publication</em> is called a data package.</p></li>
+<li><p>This is an assemblage of science metadata, the data it self, and any other file you want to publish with your data.</p></li>
+<li><p>The basic rule of thumb is to package your data in the form you would like to receive it.</p></li>
+<li><p>Each data package is assigned a Digital Object Identifier (DOI) and published in the repository for future use.</p></li>
+<li><p>EDI resources on <a href="https://edirepository.org/resources/the-data-package">data packages</a></p></li>
+</ul>
+<p><strong>Metadata</strong></p>
+<ul>
+<li>The metadata is the data that provides information about your data. It describe the structure, content, and context of your data.</li>
+<li>They are vital to the discovery and reuse of data, and are a required element of a data package.</li>
+<li>EDI resources on <a href="https://edirepository.org/resources/creating-metadata-for-publication">Creating Metadata for a Data Package</a></li>
+</ul>
+<p><strong>Ecological Metadata Language (EML)</strong></p>
+<ul>
+<li>EDI uses the Ecological Metadata Language (EML) format to document the metadata in each data package.</li>
+<li>“EML provides a comprehensive vocabulary and a readable XML markup syntax for documenting research data. It is a community-maintained specification, and evolves to meet the data documentation needs of researchers who want to openly document, preserve, and share data and outputs” (<a href="https://eml.ecoinformatics.org/">Jones et al, 2019</a>).</li>
+</ul>
+<p><strong>ezEML</strong></p>
+<ul>
+<li><p>EDI created a user-friendly tool that streamlined the process of the creating metadata in the Ecological Metadata Language (EML).</p></li>
+<li><p>ezEML is a form-based online application that leads the user through EML document creation step by step.</p></li>
+<li><p>Check out EDI <a href="https://ezeml.edirepository.org/eml/user_guide">ezEML User Guide</a> for more information.</p></li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -275,10 +292,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./intro.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">PADL Publishing Data Guide</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text">PADL Publishing Data Guide</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./tidy-data.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Notes about Tidy Data</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
