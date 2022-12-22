@@ -34,3 +34,11 @@ Before we start we want to introduce to some relevant concepts related to data p
 -   ezEML is a form-based online application that leads the user through EML document creation step by step.
 
 -   Check out EDI [ezEML User Guide](https://ezeml.edirepository.org/eml/user_guide) for more information.
+
+**OCID ID**
+
+"a free, unique, persistent identifier for researchers. Having an ORCID distinguishes researchers with similar names, ensures that scientific output is correctly attributed, and improves the overall discoverability of scientific products. Linking data publications to an ORCID profile ensures that research contributions are correctly attributed across scholarly databases."
+
+- We highly recommend creating a ORCID
+- You can use your ORCID t log in to ezEML
+**FROM EDI NEEDS TO BE REVISED**

@@ -144,13 +144,17 @@ ul.task-list{list-style: none;}
   <ul>
   <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title"> <span class="header-section-number">1.1</span> Title</a></li>
   <li><a href="#data-tables" id="toc-data-tables" class="nav-link" data-scroll-target="#data-tables"> <span class="header-section-number">1.2</span> Data Tables</a></li>
-  <li><a href="#project-participants-and-personnel" id="toc-project-participants-and-personnel" class="nav-link" data-scroll-target="#project-participants-and-personnel"> <span class="header-section-number">1.3</span> Project Participants and Personnel</a>
+  <li><a href="#participants-and-personnel" id="toc-participants-and-personnel" class="nav-link" data-scroll-target="#participants-and-personnel"> <span class="header-section-number">1.3</span> Participants and Personnel</a>
   <ul class="collapse">
   <li><a href="#creators" id="toc-creators" class="nav-link" data-scroll-target="#creators"> <span class="header-section-number">1.3.1</span> Creators</a></li>
   <li><a href="#contacts" id="toc-contacts" class="nav-link" data-scroll-target="#contacts"> <span class="header-section-number">1.3.2</span> Contacts</a></li>
   <li><a href="#associated-parties" id="toc-associated-parties" class="nav-link" data-scroll-target="#associated-parties"> <span class="header-section-number">1.3.3</span> Associated Parties</a></li>
+  <li><a href="#metadata-providers" id="toc-metadata-providers" class="nav-link" data-scroll-target="#metadata-providers"> <span class="header-section-number">1.3.4</span> Metadata Providers</a></li>
   </ul></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"> <span class="header-section-number">1.4</span> Abstract</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"> <span class="header-section-number">1.4</span> Abstract</a>
+  <ul class="collapse">
+  <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1"> <span class="header-section-number">1.4.1</span> Example</a></li>
+  </ul></li>
   <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords"> <span class="header-section-number">1.5</span> Keywords</a></li>
   <li><a href="#intellectual-rights" id="toc-intellectual-rights" class="nav-link" data-scroll-target="#intellectual-rights"> <span class="header-section-number">1.6</span> Intellectual Rights</a></li>
   <li><a href="#geographic-coverage" id="toc-geographic-coverage" class="nav-link" data-scroll-target="#geographic-coverage"> <span class="header-section-number">1.7</span> Geographic Coverage</a></li>
@@ -202,48 +206,201 @@ Example
 </section>
 <section id="data-tables" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="data-tables"><span class="header-section-number">1.2</span> Data Tables</h2>
+<p>This are all the tabular data to be included in your data package, saved as a CSV (comma-separated value) text file. Each data table in your package needs to be documented and described with the the following information.</p>
+<ol type="1">
+<li>General information of a data table</li>
+</ol>
+<ul>
+<li>Name of the data table</li>
+<li>Short description</li>
+<li>File name</li>
+</ul>
+<p>Following our example, the table below shows the information for the three data table in the parrotfish data package.</p>
+<table class="table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 43%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data table title</th>
+<th>Data table description</th>
+<th>File name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Chlorurus Activity Palmyra 2014</td>
+<td>Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus</td>
+<td>Chlorurus_Activity_Palmyra_2014.csv</td>
+</tr>
+<tr class="even">
+<td>Chlorurus Area Palmyra 2014</td>
+<td>Covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring</td>
+<td>Chlorurus_Area_Palmyra_2014.csv</td>
+</tr>
+<tr class="odd">
+<td>Fish Information Chlorurus Data</td>
+<td>Total length and phase for each individual in our study</td>
+<td>Fish_Information_Chlorurus_Data_2014.csv</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li>Column properties It is necessary to describe the content of each data table with the following information.</li>
+</ol>
+<ul>
+<li>Column name</li>
+<li>Definition of the column (what is each variable)</li>
+<li>Type of data (Numeric, Text, Categorical, DateTime)</li>
+<li>If numeric provide units</li>
+<li>The precision of measurement (optional)</li>
+<li>Format of dates (eg. YYY-MM-DD)</li>
+<li>If there is missing values how are they coded (optional)</li>
+<li>Explanation of why are there missing values (optional)</li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>ezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the <em>type</em> of data in each column.</p>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Defining codes in categorical variable Each of the unique categories or codes in a categorical variable needs a description about what they mean.</li>
+</ol>
 </section>
-<section id="project-participants-and-personnel" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="project-participants-and-personnel"><span class="header-section-number">1.3</span> Project Participants and Personnel</h2>
+<section id="participants-and-personnel" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="participants-and-personnel"><span class="header-section-number">1.3</span> Participants and Personnel</h2>
+<p>There are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is basically the same, and allows providing the usual details, such as name, salutation, and address.</p>
+<p>The categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization id - Position Name - Email - Address - Phone</p>
+<p>You can provide information as desired but please be sure to at least provide full name, email, organization and ORICI ID if available for each person.</p>
 <section id="creators" class="level3" data-number="1.3.1">
 <h3 data-number="1.3.1" class="anchored" data-anchor-id="creators"><span class="header-section-number">1.3.1</span> Creators</h3>
+<p>Creators are the dataset authors and/or primary project contributors. Dataset creator is equivalent to the author of a journal article or book. Just as with a journal or book, order matters and the creators should be listed in the order to which they contributed to the project or dataset. These name will be part of the citation of the data package.</p>
 </section>
 <section id="contacts" class="level3" data-number="1.3.2">
 <h3 data-number="1.3.2" class="anchored" data-anchor-id="contacts"><span class="header-section-number">1.3.2</span> Contacts</h3>
+<p>Any correspondence about the dataset will be sent to this person.</p>
 </section>
 <section id="associated-parties" class="level3" data-number="1.3.3">
 <h3 data-number="1.3.3" class="anchored" data-anchor-id="associated-parties"><span class="header-section-number">1.3.3</span> Associated Parties</h3>
+<p>People who contributed to the project in some way but who are not considered dataset authors. Someone who helped with some of the field or lab work, or who were involved with the overall project but not this particular dataset would be good examples of an associated party.</p>
+</section>
+<section id="metadata-providers" class="level3" data-number="1.3.4">
+<h3 data-number="1.3.4" class="anchored" data-anchor-id="metadata-providers"><span class="header-section-number">1.3.4</span> Metadata Providers</h3>
+<p>You! Presuming that you are a dataset author. Or anyone that is well versed witht the data to provide all the detailed metadata.</p>
 </section>
 </section>
 <section id="abstract" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="abstract"><span class="header-section-number">1.4</span> Abstract</h2>
+<p>Description and overview of the data package. This abstract is analogous to the abstract of a journal article, but specifically the data. There are not character limitations so please be generous with details. Include what, why, where, when, and how of this data package.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You cannot use the same text from the abstract of a published work as the abstract of your data package. This can cause copyright infringement. If your data package is associated with a journal article, your data package abstract need to be different than the one in the article.</p>
+</div>
+</div>
+<section id="example-1" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="example-1"><span class="header-section-number">1.4.1</span> Example</h3>
+<p>Data was collected at Palmyra Atoll National Wildlife Refuge located in the Central Pacific in 2014, and the work focuses on two species of Parrotfish, Chlorurus microrhinos and Chlorurus spilurus (formerly Cholrurus sordidus). For C. microrhinos, the project was designed to collect fine-scale spatial behavior data, focusing on territory size, species interactions, and benthic impact (i.e.&nbsp;feeding behavior). Focal follow data was collected by one or two observer(s), either on snorkel or SCUBA, and recording focal activity down to the second. Simultaneously, the observer would be towing a GPS that was recording a location every 5 seconds and each location was then associated with a particular behavior. Throughout this study individual fish were identifiable and successive follows were possible on individuals. For C. spilurus the focus of the project was to collect behavioral time budget data on feeding, territorial defense, and spawning behavior. The ‘Chlorurus_Area_Palmyra_2014.csv’ data only covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring. We also report the step length between successive points for the entire follow as well as where feeding was occurring.<br>
+The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in ’Fish_Information_Chlorurus_Data_2014.csv.</p>
+</section>
 </section>
 <section id="keywords" class="level2" data-number="1.5">
 <h2 data-number="1.5" class="anchored" data-anchor-id="keywords"><span class="header-section-number">1.5</span> Keywords</h2>
+<p>You can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data’s future discovery and reuse.</p>
+<p>The LTER CV is a good source for keywords. Access the <a href="https://vocab.lternet.edu/vocab/vocab/index.php">LTER CV here</a>. Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)</p>
+<p>PADL request to please include “Palmyra Atoll” as a keyword so we can keep track of all the data package in our library.</p>
 </section>
 <section id="intellectual-rights" class="level2" data-number="1.6">
 <h2 data-number="1.6" class="anchored" data-anchor-id="intellectual-rights"><span class="header-section-number">1.6</span> Intellectual Rights</h2>
+<p>EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data</p>
+<p>The options are - <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 “No Rights Reserved”</a> - Less restrictive, no copy rights. You dedicate your data to the public domain.</p>
+<ul>
+<li><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license - Attribution - CCBY</a> - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit.</li>
+</ul>
 </section>
 <section id="geographic-coverage" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="geographic-coverage"><span class="header-section-number">1.7</span> Geographic Coverage</h2>
+<p>Here you present the physical location associated either with data collection (e.g., field work), data analyses (e.g., spatial extent of a model), or both. You can provide this information in different ways.</p>
+<ol type="1">
+<li><p>Provide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.</p></li>
+<li><p>Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.</p></li>
+</ol>
+<p>The second option is more information rich but not always necessary or relevant. Either approach is acceptable.</p>
+<div class="collout-tip">
+<p>Coordinates must be provided as latitude and longitude in decimal degrees.</p>
+</div>
 </section>
 <section id="temporal-coverage" class="level2" data-number="1.8">
 <h2 data-number="1.8" class="anchored" data-anchor-id="temporal-coverage"><span class="header-section-number">1.8</span> Temporal Coverage</h2>
+<p>Information about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, , and should not include time spent, for example, analyzing data. You can provide a specific day or a year.</p>
 </section>
 <section id="taxonimic-coverage" class="level2" data-number="1.9">
 <h2 data-number="1.9" class="anchored" data-anchor-id="taxonimic-coverage"><span class="header-section-number">1.9</span> Taxonimic Coverage</h2>
+<p>“If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.</p>
+<p>For each taxon, highlight the scientific name and taxonomic resolution of the organism using the Taxon Scientific Name and Taxon Rank drop-down lists, respectively. Details of most organisms are available through ITIS but draw upon different taxonomic authorities with the Taxonomic Authority drop-down if appropriate. Once you have identified the details, use the Fill Heirarchy button to have ezEML construct a full taxonomy for the organism. Save and Continue, then repeat for each taxon.”</p>
+<p><strong>FROM CAP LTER! NEED TO ADAPT</strong></p>
 </section>
 <section id="maintenance" class="level2" data-number="1.10">
 <h2 data-number="1.10" class="anchored" data-anchor-id="maintenance"><span class="header-section-number">1.10</span> Maintenance</h2>
+<p>Mention here if the data collection is completed or ongoing. If it is an ongoing project, it is recommended to mention how frequently this package is going to be maintained. If needed, you can add any other necessary information about the maintenance of the data package.</p>
 </section>
 <section id="methods" class="level2" data-number="1.11">
 <h2 data-number="1.11" class="anchored" data-anchor-id="methods"><span class="header-section-number">1.11</span> Methods</h2>
+<p>Describe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations.</p>
 </section>
 <section id="project" class="level2" data-number="1.12">
 <h2 data-number="1.12" class="anchored" data-anchor-id="project"><span class="header-section-number">1.12</span> Project</h2>
+<p>If desired here you document the information about the project this data is part of.</p>
+<p>Filed in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url</p>
+<p>You can also add detailed information about project personnel. Fields in this section are similar to the Participants section.</p>
 </section>
 <section id="other-entities" class="level2" data-number="1.13">
 <h2 data-number="1.13" class="anchored" data-anchor-id="other-entities"><span class="header-section-number">1.13</span> Other Entities</h2>
+<p>Any other file that is not a data table (tabular data) can be part of your data package as “other entity”. This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>MENTION SOMTHING ABOUT SPATIAL DATA</p>
+</div>
+</div>
+<p>For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Similar to Data Tables, your can upload your file to ezEML and it will aromatically identify some of the metadata for this entity.</p>
+</div>
+</div>
 
 
 </section>
