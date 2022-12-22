@@ -1,4 +1,4 @@
-# Data Workflow
+# Data Workflow {.unnumbered}
 
 1. Organize
 2. Clean

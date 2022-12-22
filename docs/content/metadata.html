@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Palmyra Atoll Data Library - 2&nbsp; Metadata: Describing your data in EML</title>
+<title>Palmyra Atoll Data Library - 1&nbsp; Metadata Components</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Metadata: Describing your data in EML</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Metadata Components</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -105,27 +105,27 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data-workflow.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Data Workflow</span></a>
+  <a href="../content/data-workflow.html" class="sidebar-item-text sidebar-link">Data Workflow</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/metadata.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Metadata: Describing your data in EML</span></a>
+  <a href="../content/metadata.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Metadata Components</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/ezeml.html" class="sidebar-item-text sidebar-link">Set Up</a>
+  <a href="../content/ezeml.html" class="sidebar-item-text sidebar-link">Using ezEML</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/metadata-templates.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="../content/metadata-templates.html" class="sidebar-item-text sidebar-link">Metadata Tamplates</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/other-options.html" class="sidebar-item-text sidebar-link">Other options for creating EMLs”</a>
+  <a href="../content/other-options.html" class="sidebar-item-text sidebar-link">Alternative options</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -138,14 +138,37 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title"> <span class="header-section-number">1.1</span> Title</a></li>
+  <li><a href="#data-tables" id="toc-data-tables" class="nav-link" data-scroll-target="#data-tables"> <span class="header-section-number">1.2</span> Data Tables</a></li>
+  <li><a href="#project-participants-and-personnel" id="toc-project-participants-and-personnel" class="nav-link" data-scroll-target="#project-participants-and-personnel"> <span class="header-section-number">1.3</span> Project Participants and Personnel</a>
+  <ul class="collapse">
+  <li><a href="#creators" id="toc-creators" class="nav-link" data-scroll-target="#creators"> <span class="header-section-number">1.3.1</span> Creators</a></li>
+  <li><a href="#contacts" id="toc-contacts" class="nav-link" data-scroll-target="#contacts"> <span class="header-section-number">1.3.2</span> Contacts</a></li>
+  <li><a href="#associated-parties" id="toc-associated-parties" class="nav-link" data-scroll-target="#associated-parties"> <span class="header-section-number">1.3.3</span> Associated Parties</a></li>
+  </ul></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"> <span class="header-section-number">1.4</span> Abstract</a></li>
+  <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords"> <span class="header-section-number">1.5</span> Keywords</a></li>
+  <li><a href="#intellectual-rights" id="toc-intellectual-rights" class="nav-link" data-scroll-target="#intellectual-rights"> <span class="header-section-number">1.6</span> Intellectual Rights</a></li>
+  <li><a href="#geographic-coverage" id="toc-geographic-coverage" class="nav-link" data-scroll-target="#geographic-coverage"> <span class="header-section-number">1.7</span> Geographic Coverage</a></li>
+  <li><a href="#temporal-coverage" id="toc-temporal-coverage" class="nav-link" data-scroll-target="#temporal-coverage"> <span class="header-section-number">1.8</span> Temporal Coverage</a></li>
+  <li><a href="#taxonimic-coverage" id="toc-taxonimic-coverage" class="nav-link" data-scroll-target="#taxonimic-coverage"> <span class="header-section-number">1.9</span> Taxonimic Coverage</a></li>
+  <li><a href="#maintenance" id="toc-maintenance" class="nav-link" data-scroll-target="#maintenance"> <span class="header-section-number">1.10</span> Maintenance</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"> <span class="header-section-number">1.11</span> Methods</a></li>
+  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project"> <span class="header-section-number">1.12</span> Project</a></li>
+  <li><a href="#other-entities" id="toc-other-entities" class="nav-link" data-scroll-target="#other-entities"> <span class="header-section-number">1.13</span> Other Entities</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Metadata: Describing your data in EML</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Metadata Components</span></h1>
 </div>
 
 
@@ -159,9 +182,71 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>This section presents a description of the most relevat components of EML. The goal is for you to familiarize with all that you need to document from your data. The next sections show different ways for you to do this allong the way.</p>
+<p>This section describes of the most relevant components of the EML. The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this along the way.</p>
+<section id="title" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="title"><span class="header-section-number">1.1</span> Title</h2>
+<p>Every data package needs a <strong>Title</strong>. Data packages title should be informative and provide helpful context about the dataset. Title should inform about the temporal and geographic extent of the data.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Example
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Activity budgets and space use for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014.</p>
+</div>
+</div>
+</section>
+<section id="data-tables" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="data-tables"><span class="header-section-number">1.2</span> Data Tables</h2>
+</section>
+<section id="project-participants-and-personnel" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="project-participants-and-personnel"><span class="header-section-number">1.3</span> Project Participants and Personnel</h2>
+<section id="creators" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="creators"><span class="header-section-number">1.3.1</span> Creators</h3>
+</section>
+<section id="contacts" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="contacts"><span class="header-section-number">1.3.2</span> Contacts</h3>
+</section>
+<section id="associated-parties" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="associated-parties"><span class="header-section-number">1.3.3</span> Associated Parties</h3>
+</section>
+</section>
+<section id="abstract" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="abstract"><span class="header-section-number">1.4</span> Abstract</h2>
+</section>
+<section id="keywords" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="keywords"><span class="header-section-number">1.5</span> Keywords</h2>
+</section>
+<section id="intellectual-rights" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="intellectual-rights"><span class="header-section-number">1.6</span> Intellectual Rights</h2>
+</section>
+<section id="geographic-coverage" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="geographic-coverage"><span class="header-section-number">1.7</span> Geographic Coverage</h2>
+</section>
+<section id="temporal-coverage" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="temporal-coverage"><span class="header-section-number">1.8</span> Temporal Coverage</h2>
+</section>
+<section id="taxonimic-coverage" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="taxonimic-coverage"><span class="header-section-number">1.9</span> Taxonimic Coverage</h2>
+</section>
+<section id="maintenance" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="maintenance"><span class="header-section-number">1.10</span> Maintenance</h2>
+</section>
+<section id="methods" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="methods"><span class="header-section-number">1.11</span> Methods</h2>
+</section>
+<section id="project" class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="project"><span class="header-section-number">1.12</span> Project</h2>
+</section>
+<section id="other-entities" class="level2" data-number="1.13">
+<h2 data-number="1.13" class="anchored" data-anchor-id="other-entities"><span class="header-section-number">1.13</span> Other Entities</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -264,12 +349,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../content/data-workflow.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Data Workflow</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Workflow</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../content/ezeml.html" class="pagination-link">
-        <span class="nav-page-text">Set Up</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">Using ezEML</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

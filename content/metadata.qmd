@@ -1,5 +1,42 @@
-# Metadata: Describing your data in EML
+# Metadata Components
 
+This section describes of the most relevant components of the EML. The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this along the way.
 
-This section presents a description of the most relevat components of EML. The goal is for you to familiarize with all that you need to document from your data. The next sections show different ways for you to do this allong the way.
+## Title
 
+Every data package needs a **Title**. Data packages title should be informative and provide helpful context about the dataset. Title should inform about the temporal and geographic extent of the data.
+
+::: callout-note
+## Example
+Activity budgets and space use for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014.
+:::
+
+## Data Tables
+
+## Project Participants and Personnel
+
+### Creators
+
+### Contacts
+
+### Associated Parties
+
+## Abstract
+
+## Keywords
+
+## Intellectual Rights
+
+## Geographic Coverage
+
+## Temporal Coverage
+
+## Taxonimic Coverage
+
+## Maintenance
+
+## Methods
+
+## Project
+
+## Other Entities

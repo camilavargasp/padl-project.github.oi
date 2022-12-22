@@ -14,7 +14,7 @@ We understand that EDI might not be suitable to all data. If you are planning to
 -   This guide goes in-depth on how to publish your data using the [ezEML](https://ezeml.edirepository.org/eml/) tool suite developed by the Environmental Data Initiative [(EDI)](https://edirepository.org/).
 -   We also provide metadata templates for you to know and plan on documenting your data from the get go.
 
-::: callout-recommendation
+::: callout-tip
 We highly recommend to have a plan for collecting your metadata since the beginning of your research life cycle. According to EDI experience "continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes".
 :::
 
