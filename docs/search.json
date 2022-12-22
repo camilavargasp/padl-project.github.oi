@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Palmyra Atoll Data Library User Guide",
     "section": "",
-    "text": "The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.\nWe believe that facilitating access to research and its associated data will amplify academic discussions, help other researchers, and further inform management and policy decisions being made in Palmyra and other tropical ecosystems.\nWe are working with the Environmental Data Initiative (EDI), an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.\n\n\nWe want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.\n\n\n\n\n\n\nCredits\n\n\n\nThis guide borrows heavily from EDI resources, CAP LTER Getting Started Guide and NCEAS coreR curriculum. Check out the links and see complete citation on the reference section."
+    "text": "The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.\nWe believe that facilitating access to research and its associated data will amplify academic discussions, help other researchers, and further inform management and policy decisions being made in Palmyra and other tropical ecosystems.\nWe are working with the Environmental Data Initiative (EDI), an NSF-supported initiative that provides a reliable, registered and certified trustworthy data repository with an open-access API. EDI follows a high metadata standard that ensures that your future self and others can utilize data for scientific and other forms of inquiry.\n\n\nWe want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.\n\n\n\nThis guide borrows heavily from EDI resources, CAP LTER Getting Started Guide and NCEAS coreR curriculum. Check out the links and see complete citation on the reference section."
   },
   {
     "objectID": "content/about-this-guide.html",
@@ -53,7 +53,7 @@
     "href": "content/metadata.html#example-1",
     "title": "Metadata Components",
     "section": "Example",
-    "text": "Example\n\n\n\n\n\n\n\n\nData table title\nData table description\nFile name\n\n\n\n\nChlorurus Activity Palmyra 2014\nReports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus\nChlorurus_Activity_Palmyra_2014.csv\n\n\n\nFish Information Chlorurus Data | Total length and phase for each individual in our study | Fish_Information_Chlorurus_Data_2014.csv |"
+    "text": "Example\n\n\n\n\n\n\n\n\nData table title\nData table description\nFile name\n\n\n\n\nChlorurus Activity Palmyra 2014\nReports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus\nChlorurus_Activity_Palmyra_2014.csv\n\n\nFish Information Chlorurus Data\nTotal length and phase for each individual in our study\nFish_Information_Chlorurus_Data_2014.csv"
   },
   {
     "objectID": "content/metadata.html#participants-and-personnel",
@@ -74,14 +74,14 @@
     "href": "content/metadata.html#keywords",
     "title": "Metadata Components",
     "section": "Keywords",
-    "text": "Keywords\nYou can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data’s future discovery and reuse.\nThe LTER CV is a good source for keywords. Access the LTER CV here. Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)\nPADL request to please include “Palmyra Atoll” as a keyword so we can keep track of all the data package in our library."
+    "text": "Keywords\nYou can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data’s future discovery and reuse.\nThe LTER CV is a good source for keywords. Access the LTER CV here. Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)\nPADL request to please include Palmyra Atoll as a keyword so we can keep track of all the data package in our library."
   },
   {
     "objectID": "content/metadata.html#intellectual-rights",
     "href": "content/metadata.html#intellectual-rights",
     "title": "Metadata Components",
     "section": "Intellectual Rights",
-    "text": "Intellectual Rights\nEDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data\nThe options are - Creative Commons CC0 1.0 “No Rights Reserved” - Less restrictive, no copy rights. You dedicate your data to the public domain.\n\nCreative Commons license - Attribution - CCBY - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit."
+    "text": "Intellectual Rights\nEDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data\nThe options are:\n\nCreative Commons CC0 1.0 “No Rights Reserved” - Less restrictive, no copy rights. You dedicate your data to the public domain.\nCreative Commons license - Attribution - CCBY - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit."
   },
   {
     "objectID": "content/metadata.html#geographic-coverage",
@@ -119,11 +119,18 @@
     "text": "Methods\nDescribe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations."
   },
   {
+    "objectID": "content/metadata.html#example-3",
+    "href": "content/metadata.html#example-3",
+    "title": "Metadata Components",
+    "section": "Example",
+    "text": "Example\nFocal follow data was collected at two locations at Palmyra Atoll National Wildlife Refuge, Penguin Spit and Western Terrace. Individual fish were identified by unique markings on the face, tail, and body as well as missing scales or scars. A diver would identify an individual fish and follow the fish for 2-3mins before stating the focal follow. The diver would tow a GPS that was recording a position every 5 secs and synchronized the time on their wrist watch to the GPS time. The diver would then follow the fish and record the start and stop time of each activity, while also following the path of the fish. GPS tracks were downloaded and each position was associated with an activity and activity summaries were calculated. For C. Microrhinos we calculated the 95% kernel utilization distributions (KUD) for the entire focal follow as well as for only the locations categorized as ‘feeding’. All KUD estimates were done in R with the adehabitatHR package."
+  },
+  {
     "objectID": "content/metadata.html#project",
     "href": "content/metadata.html#project",
     "title": "Metadata Components",
     "section": "Project",
-    "text": "Project\nIf desired here you document the information about the project this data is part of.\nFiled in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url\nYou can also add detailed information about project personnel. Fields in this section are similar to the Participants section."
+    "text": "Project\nIf desired here you document the information about the project this data is part of. Filed in this section are\n\nProject title\nProject abstract\nFunder name\nAward title\nFunder ID\nAward url\n\nYou can also add detailed information about project personnel. Fields in this section are similar to the Participants section."
   },
   {
     "objectID": "content/metadata.html#other-entities",

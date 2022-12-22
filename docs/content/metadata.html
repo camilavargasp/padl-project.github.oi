@@ -160,6 +160,7 @@ ul.task-list{list-style: none;}
   <li><a href="#taxonimic-coverage" id="toc-taxonimic-coverage" class="nav-link" data-scroll-target="#taxonimic-coverage">Taxonimic Coverage</a></li>
   <li><a href="#maintenance" id="toc-maintenance" class="nav-link" data-scroll-target="#maintenance">Maintenance</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#example-3" id="toc-example-3" class="nav-link" data-scroll-target="#example-3">Example</a></li>
   <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a></li>
   <li><a href="#other-entities" id="toc-other-entities" class="nav-link" data-scroll-target="#other-entities">Other Entities</a></li>
   </ul>
@@ -236,9 +237,13 @@ Example
 <td>Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus</td>
 <td>Chlorurus_Activity_Palmyra_2014.csv</td>
 </tr>
+<tr class="even">
+<td>Fish Information Chlorurus Data</td>
+<td>Total length and phase for each individual in our study</td>
+<td>Fish_Information_Chlorurus_Data_2014.csv</td>
+</tr>
 </tbody>
 </table>
-<p>Fish Information Chlorurus Data | Total length and phase for each individual in our study | Fish_Information_Chlorurus_Data_2014.csv |</p>
 </section>
 <ol start="2" type="1">
 <li>Column properties It is necessary to describe the content of each data table with the following information.</li>
@@ -326,14 +331,15 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 <h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
 <p>You can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data’s future discovery and reuse.</p>
 <p>The LTER CV is a good source for keywords. Access the <a href="https://vocab.lternet.edu/vocab/vocab/index.php">LTER CV here</a>. Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)</p>
-<p>PADL request to please include “Palmyra Atoll” as a keyword so we can keep track of all the data package in our library.</p>
+<p>PADL request to please include <strong>Palmyra Atoll</strong> as a keyword so we can keep track of all the data package in our library.</p>
 </section>
 <section id="intellectual-rights" class="level2">
 <h2 class="anchored" data-anchor-id="intellectual-rights">Intellectual Rights</h2>
 <p>EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data</p>
-<p>The options are - <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 “No Rights Reserved”</a> - Less restrictive, no copy rights. You dedicate your data to the public domain.</p>
+<p>The options are:</p>
 <ul>
-<li><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license - Attribution - CCBY</a> - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit.</li>
+<li><p><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 “No Rights Reserved”</a> - Less restrictive, no copy rights. You dedicate your data to the public domain.</p></li>
+<li><p><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license - Attribution - CCBY</a> - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit.</p></li>
 </ul>
 </section>
 <section id="geographic-coverage" class="level2">
@@ -366,10 +372,21 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <p>Describe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations.</p>
 </section>
+<section id="example-3" class="level2 collout-note">
+<h2 class="anchored" data-anchor-id="example-3">Example</h2>
+<p>Focal follow data was collected at two locations at Palmyra Atoll National Wildlife Refuge, Penguin Spit and Western Terrace. Individual fish were identified by unique markings on the face, tail, and body as well as missing scales or scars. A diver would identify an individual fish and follow the fish for 2-3mins before stating the focal follow. The diver would tow a GPS that was recording a position every 5 secs and synchronized the time on their wrist watch to the GPS time. The diver would then follow the fish and record the start and stop time of each activity, while also following the path of the fish. GPS tracks were downloaded and each position was associated with an activity and activity summaries were calculated. For C. Microrhinos we calculated the 95% kernel utilization distributions (KUD) for the entire focal follow as well as for only the locations categorized as ‘feeding’. All KUD estimates were done in R with the adehabitatHR package.</p>
+</section>
 <section id="project" class="level2">
 <h2 class="anchored" data-anchor-id="project">Project</h2>
-<p>If desired here you document the information about the project this data is part of.</p>
-<p>Filed in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url</p>
+<p>If desired here you document the information about the project this data is part of. Filed in this section are</p>
+<ul>
+<li>Project title</li>
+<li>Project abstract</li>
+<li>Funder name</li>
+<li>Award title</li>
+<li>Funder ID</li>
+<li>Award url</li>
+</ul>
 <p>You can also add detailed information about project personnel. Fields in this section are similar to the Participants section.</p>
 </section>
 <section id="other-entities" class="level2">
@@ -385,7 +402,7 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>MENTION SOMTHING ABOUT SPATIAL DATA</p>
+<p><strong>MENTION SOMTHING ABOUT SPATIAL DATA</strong></p>
 </div>
 </div>
 <p>For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format</p>

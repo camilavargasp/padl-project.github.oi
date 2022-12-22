@@ -27,11 +27,10 @@ Following our example, the table below shows the information for the three data 
 ::: collout-note
 ## Example
 
-| Data table title                | Data table description                                                                                                                                  | File name                                |
+| Data table title                | Data table description                                                                                                                      | File name                                |
 |-----------------------|-------------------------------|------------------|
-| Chlorurus Activity Palmyra 2014 | Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus             | Chlorurus_Activity_Palmyra_2014.csv      |
-
-| Fish Information Chlorurus Data | Total length and phase for each individual in our study                                                                                                 | Fish_Information_Chlorurus_Data_2014.csv |
+| Chlorurus Activity Palmyra 2014 | Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus | Chlorurus_Activity_Palmyra_2014.csv      |
+| Fish Information Chlorurus Data | Total length and phase for each individual in our study                                                                                     | Fish_Information_Chlorurus_Data_2014.csv |
 :::
 
 2.  Column properties It is necessary to describe the content of each data table with the following information.
@@ -90,20 +89,21 @@ Data was collected at Palmyra Atoll National Wildlife Refuge located in the Cent
 The 'Chlorurus_Activity_Palmyra_2014.csv' is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in 'Fish_Information_Chlorurus_Data_2014.csv.
 :::
 
-
 ## Keywords
 
 You can add as many keywords as necessary associated to your data package. Using keywords from a controlled vocabulary (CV) will improve your data's future discovery and reuse.
 
 The LTER CV is a good source for keywords. Access the [LTER CV here](https://vocab.lternet.edu/vocab/vocab/index.php). Also, please determine one or two keywords that best describe your lab, station, and/or project (e.g., Trout Lake Station, NTL LTER).)
 
-PADL request to please include "Palmyra Atoll" as a keyword so we can keep track of all the data package in our library.
+PADL request to please include **Palmyra Atoll** as a keyword so we can keep track of all the data package in our library.
 
 ## Intellectual Rights
 
 EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data
 
-The options are - [Creative Commons CC0 1.0 "No Rights Reserved"](https://creativecommons.org/publicdomain/zero/1.0/) - Less restrictive, no copy rights. You dedicate your data to the public domain.
+The options are:
+
+-   [Creative Commons CC0 1.0 "No Rights Reserved"](https://creativecommons.org/publicdomain/zero/1.0/) - Less restrictive, no copy rights. You dedicate your data to the public domain.
 
 -   [Creative Commons license - Attribution - CCBY](https://creativecommons.org/licenses/by/4.0/) - The data package is open to be shared and adapt. Anyone who use this package must give appropriate credit.
 
@@ -141,11 +141,22 @@ Mention here if the data collection is completed or ongoing. If it is an ongoing
 
 Describe all methods used to collect, process and analyze the data. It is crucial to provide detailed information for potential users to be able to interpret the data correctly for reuse. Be specific about the study design and field and lab methods for collecting and processing the data. Include instrument descriptions and protocol citations.
 
+::: collout-note
+## Example
+
+Focal follow data was collected at two locations at Palmyra Atoll National Wildlife Refuge, Penguin Spit and Western Terrace. Individual fish were identified by unique markings on the face, tail, and body as well as missing scales or scars. A diver would identify an individual fish and follow the fish for 2-3mins before stating the focal follow. The diver would tow a GPS that was recording a position every 5 secs and synchronized the time on their wrist watch to the GPS time. The diver would then follow the fish and record the start and stop time of each activity, while also following the path of the fish. GPS tracks were downloaded and each position was associated with an activity and activity summaries were calculated. For C. Microrhinos we calculated the 95% kernel utilization distributions (KUD) for the entire focal follow as well as for only the locations categorized as 'feeding'. All KUD estimates were done in R with the adehabitatHR package.
+:::
+
 ## Project
 
-If desired here you document the information about the project this data is part of.
+If desired here you document the information about the project this data is part of. Filed in this section are
 
-Filed in this section are - Project title - Project abstract - Funder name - Award title - Funder ID - Award url
+-   Project title
+-   Project abstract
+-   Funder name
+-   Award title
+-   Funder ID
+-   Award url
 
 You can also add detailed information about project personnel. Fields in this section are similar to the Participants section.
 
@@ -154,7 +165,7 @@ You can also add detailed information about project personnel. Fields in this se
 Any other file that is not a data table (tabular data) can be part of your data package as "other entity". This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.
 
 ::: callout-warning
-MENTION SOMTHING ABOUT SPATIAL DATA
+**MENTION SOMTHING ABOUT SPATIAL DATA**
 :::
 
 For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format
