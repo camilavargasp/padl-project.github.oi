@@ -6,15 +6,14 @@ book:
   title: "Palmyra Atoll Data Library"
   chapters:
     - index.qmd
-    - intro.qmd
-    - getting-started.qmd
-    - tidy-data.qmd
-    
-    - part: how-to-ezeml.qmd
-      chapters: 
-        - set-up.qmd
-        
-    - metadata-templates.qmd
+    - content/about-this-guide.qmd
+    - content/basic-concepts.qmd
+    - content/data-workflow.qmd
+    - content/metadata.qmd
+    - content/ezeml.qmd
+    - content/metadata-templates.qmd
+    - content/other-options.qmd
+    - content/resources.qmd
 
 bibliography: references.bib
 

@@ -1,6 +1,6 @@
-# Getting Started {.unnumbered}
+# Basic Concepts {.unnumbered}
 
-## Basic Concepts
+Before we start we want to introduce to some relevant concepts related to data publishing. This sets the ground to navigate the environmental/ecological data publishing world.
 
 **Data Package**
 

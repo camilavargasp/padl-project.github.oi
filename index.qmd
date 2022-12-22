@@ -1,4 +1,4 @@
-# Welcome {.unnumbered}
+# Welcome! {.unnumbered}
 
 The Palmyra Atoll Data Library (PADL) aims to publish as much data collected at Palmyra Atoll as possible.
 
@@ -9,3 +9,8 @@ We are working with the [Environmental Data Initiative (EDI)](https://edireposit
 ### Why PADL?
 
 We want to have a centralized place where scientist and managers have access to all data collected at Palmyra Atoll. We believe that data are among the most valuable outputs of research. If no-one can access these data, all the data collection is a shocking waste of resources. Having an open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understand historical patterns and baselines in a changing world. PADL wants to make it easy for scientist to know and have access to research done at Palmyra in the past.
+
+
+::: callout-note
+This guide borrows heavily from [EDI resources](https://edirepository.org/resources/resources-for-data-authors), [CAP LTER Getting Started Guide](https://caplter.github.io/caplter_ezeml/#getting-started) and [NCEAS coreR curriculum](https://www.nceas.ucsb.edu/learning-hub/core-r). Check out the links and see complete citation on the reference section.
+:::

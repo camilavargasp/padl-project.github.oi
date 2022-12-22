@@ -1,0 +1,5 @@
+# Metadata: Describing your data in EML
+
+
+This section presents a description of the most relevat components of EML. The goal is for you to familiarize with all that you need to document from your data. The next sections show different ways for you to do this allong the way.
+
