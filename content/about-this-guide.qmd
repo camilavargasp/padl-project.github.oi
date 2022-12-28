@@ -1,21 +1,23 @@
 # About this guide {.unnumbered}
 
-We created this guide to help you document your data in a way that facilitates the process of publishing your data or metadata to EDI. Here we describe what you need to do to make your data publicly available through the EDI repository.
+We created this guide to help you document your data in a way that facilitates publishing your data or metadata to EDI. Here we describe what you need to do to make your data publicly available through the EDI repository.
 
 ::: callout-important
-We understand that EDI might not be suitable to all data. If you are planning to publish you data elsewhere we ask to please collect the metadata following EDI metadata standards presented in this guide and submit your metadata to TNC Palmyra.
+We understand that EDI might not be suitable for all data. If you plan to publish your data elsewhere, please collect the metadata following the EDI standards presented in this guide. You will then have to submit your metadata to TNC Palmyra.
 :::
 
 ### What to expect
 
--   The goal of this guide is for you to know what you need to do to be in compliance with TNC Palmyra Data Sharing Agreement.
--   We provide some orientation and tips for when planning your data collection, together with resources to learn more about tidy data.
+-   The goal of this guide is for you to know what you need to do to comply with TNC Palmyra Data Sharing Agreement.
+-   We provide some orientation and tips for planning your data collection and resources to learn more about tidy data.
 -   We describe each of the elements needed to best document your data.
 -   This guide goes in-depth on how to publish your data using the [ezEML](https://ezeml.edirepository.org/eml/) tool suite developed by the Environmental Data Initiative [(EDI)](https://edirepository.org/).
--   We also provide metadata templates for you to know and plan on documenting your data from the get go.
+-   We also provide metadata templates for you to know and plan on documenting your data from the get-go.
+
+
 
 ::: callout-tip
-We highly recommend to have a plan for collecting your metadata since the beginning of your research life cycle. According to EDI experience "continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes".
+We highly recommend having a plan for collecting your metadata since the beginning of your research life cycle. According to EDI experience, "continuous creation of metadata during the research life cycle greatly benefits data management during a project and when it comes time to publish data when the project concludes."
 :::
 
 [![from edirepository.org, Creating Metadata During the Research Life Cycle](pics/metadata-in-the-research-life-cycle.png)](https://edirepository.org/resources/creating-metadata-during-the-research-lifecycle)

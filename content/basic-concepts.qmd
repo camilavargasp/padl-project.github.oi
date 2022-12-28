@@ -1,6 +1,6 @@
-# Basic Concepts {.unnumbered}
+# Basic Concepts Definition {.unnumbered}
 
-Before we start we want to introduce to some relevant concepts related to data publishing. This sets the ground to navigate the environmental/ecological data publishing world.
+Before we start, we want to introduce some relevant concepts related to data publishing. This sets the ground to navigate the environmental/ecological data publishing world.
 
 **Data Package**
 
@@ -8,7 +8,7 @@ Before we start we want to introduce to some relevant concepts related to data p
 
 -   The *unit of publication* is called a data package.
 
--   This is an assemblage of science metadata, the data it self, and any other file you want to publish with your data.
+-   This is an assemblage of science metadata, the data itself, and any other file you want to publish with your data.
 
 -   The basic rule of thumb is to package your data in the form you would like to receive it.
 
@@ -18,18 +18,18 @@ Before we start we want to introduce to some relevant concepts related to data p
 
 **Metadata**
 
--   The metadata is the data that provides information about your data. It describe the structure, content, and context of your data.
--   They are vital to the discovery and reuse of data, and are a required element of a data package.
+-   The metadata is the data that provides information about your data. It describes the structure, content, and context of your data.
+-   They are vital to the discovery and reuse of data and are a required element of a data package.
 -   EDI resources on [Creating Metadata for a Data Package](https://edirepository.org/resources/creating-metadata-for-publication)
 
 **Ecological Metadata Language (EML)**
 
 -   EDI uses the Ecological Metadata Language (EML) format to document the metadata in each data package.
--   "EML provides a comprehensive vocabulary and a readable XML markup syntax for documenting research data. It is a community-maintained specification, and evolves to meet the data documentation needs of researchers who want to openly document, preserve, and share data and outputs" ([Jones et al, 2019](https://eml.ecoinformatics.org/)).
+-   "EML provides a comprehensive vocabulary and a readable XML markup syntax for documenting research data. It is a community-maintained specification and evolves to meet the data documentation needs of researchers who want to openly document, preserve, and share data and outputs" ([Jones et al., 2019](https://eml.ecoinformatics.org/)).
 
 **ezEML**
 
--   EDI created a user-friendly tool that streamlined the process of the creating metadata in the Ecological Metadata Language (EML).
+-   EDI created a user-friendly tool that streamlined the process of creating metadata in the Ecological Metadata Language (EML).
 
 -   ezEML is a form-based online application that leads the user through EML document creation step by step.
 
@@ -37,8 +37,11 @@ Before we start we want to introduce to some relevant concepts related to data p
 
 **OCID ID**
 
-"a free, unique, persistent identifier for researchers. Having an ORCID distinguishes researchers with similar names, ensures that scientific output is correctly attributed, and improves the overall discoverability of scientific products. Linking data publications to an ORCID profile ensures that research contributions are correctly attributed across scholarly databases."
+-   A unique and persistent identifier for researchers.
+-   It avoids confusion when researchers have similar names.
+-   Allows for the correct attribution of scientific outputs.
+-   Improves the overall discoverability of scientific products.
+-   “Linking data publications to an ORCID profile ensures that research contributions are correctly attributed across scholarly databases."
+-   We highly recommend creating an ORCID
+-   You can use your ORCID t log in to ezEML 
 
-- We highly recommend creating a ORCID
-- You can use your ORCID t log in to ezEML
-**FROM EDI NEEDS TO BE REVISED**

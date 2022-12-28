@@ -9,7 +9,7 @@ Every data package needs a **Title**. Data packages title should be informative 
 ::: callout-note
 ## Example
 
-Activity budgets and space use for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014.
+Activity budgets and space used for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014.
 :::
 
 ## Data Tables
@@ -28,7 +28,7 @@ Following our example, the table below shows the information for the three data 
 ## Example
 
 | Data table title                | Data table description                                                                                                                      | File name                                |
-|-----------------------|-------------------------------|------------------|
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | Chlorurus Activity Palmyra 2014 | Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus | Chlorurus_Activity_Palmyra_2014.csv      |
 | Fish Information Chlorurus Data | Total length and phase for each individual in our study                                                                                     | Fish_Information_Chlorurus_Data_2014.csv |
 :::
