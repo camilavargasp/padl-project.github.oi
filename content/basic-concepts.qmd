@@ -40,8 +40,8 @@ Before we start, we want to introduce some relevant concepts related to data pub
 -   A unique and persistent identifier for researchers.
 -   It avoids confusion when researchers have similar names.
 -   Allows for the correct attribution of scientific outputs.
--   Improves the overall discoverability of scientific products.
--   “Linking data publications to an ORCID profile ensures that research contributions are correctly attributed across scholarly databases."
+-   Improves scientific products discovery.   
+-   When linking your published data packages to an ORCID profile, it ensures correct attributions across scholarly databases.
 -   We highly recommend creating an ORCID
 -   You can use your ORCID t log in to ezEML 
 

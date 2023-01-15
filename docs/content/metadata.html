@@ -100,7 +100,7 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/basic-concepts.html" class="sidebar-item-text sidebar-link">Basic Concepts</a>
+  <a href="../content/basic-concepts.html" class="sidebar-item-text sidebar-link">Basic Concepts Definition</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -144,7 +144,6 @@ ul.task-list{list-style: none;}
   <ul>
   <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a></li>
   <li><a href="#data-tables" id="toc-data-tables" class="nav-link" data-scroll-target="#data-tables">Data Tables</a></li>
-  <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example</a></li>
   <li><a href="#participants-and-personnel" id="toc-participants-and-personnel" class="nav-link" data-scroll-target="#participants-and-personnel">Participants and Personnel</a>
   <ul class="collapse">
   <li><a href="#creators" id="toc-creators" class="nav-link" data-scroll-target="#creators">Creators</a></li>
@@ -185,7 +184,7 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>This section describes of the most relevant components of the EML. The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this along the way.</p>
+<p>This section describes of the most relevant components of the Ecological Metadata Language (EML). The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this in an organized manner along the way.</p>
 <section id="title" class="level2">
 <h2 class="anchored" data-anchor-id="title">Title</h2>
 <p>Every data package needs a <strong>Title</strong>. Data packages title should be informative and provide helpful context about the dataset. Title should inform about the temporal and geographic extent of the data.</p>
@@ -199,7 +198,7 @@ Example
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Activity budgets and space use for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014.</p>
+<p>Activity budgets and space used for two common Pacific parrotfish (Chlorurus Sp.) at Palmyra Atoll National Wildlife Refuge 2014.</p>
 </div>
 </div>
 </section>
@@ -215,36 +214,23 @@ Example
 <li>File name</li>
 </ul>
 <p>Following our example, the table below shows the information for the three data table in the parrotfish data package.</p>
-</section>
-<section id="example-1" class="level2 collout-note">
-<h2 class="anchored" data-anchor-id="example-1">Example</h2>
-<table class="table">
-<colgroup>
-<col style="width: 31%">
-<col style="width: 43%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Data table title</th>
-<th>Data table description</th>
-<th>File name</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Chlorurus Activity Palmyra 2014</td>
-<td>Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus</td>
-<td>Chlorurus_Activity_Palmyra_2014.csv</td>
-</tr>
-<tr class="even">
-<td>Fish Information Chlorurus Data</td>
-<td>Total length and phase for each individual in our study</td>
-<td>Fish_Information_Chlorurus_Data_2014.csv</td>
-</tr>
-</tbody>
-</table>
-</section>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Example
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>Title:</strong> Chlorurus Activity Palmyra 2014.</p></li>
+<li><p><strong>Data table description:</strong> Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus.</p></li>
+<li><p><strong>File name:</strong> <code>Chlorurus_Activity_Palmyra_2014.csv</code></p></li>
+</ul>
+</div>
+</div>
 <ol start="2" type="1">
 <li>Column properties It is necessary to describe the content of each data table with the following information.</li>
 </ol>
@@ -254,8 +240,8 @@ Example
 <li>Type of data (Numeric, Text, Categorical, DateTime)</li>
 <li>If numeric provide units</li>
 <li>The precision of measurement (optional)</li>
-<li>Format of dates (eg. YYY-MM-DD)</li>
-<li>If there is missing values how are they coded (optional)</li>
+<li>Format of dates (eg. YYYY-MM-DD)</li>
+<li>If there is missing values how are they coded (e.g., NA values, optional)</li>
 <li>Explanation of why are there missing values (optional)</li>
 </ul>
 <div class="callout-tip callout callout-style-default callout-captioned">
@@ -268,16 +254,17 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>ezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the <em>type</em> of data in each column.</p>
+<p>ezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the <em>type</em> of data (categorical, numerical, dates, etc.) in each column.</p>
 </div>
 </div>
 <ol start="3" type="1">
-<li>Defining codes in categorical variable Each of the unique categories or codes in a categorical variable needs a description about what they mean.</li>
+<li>Define codes in categorical variable. Each of the unique categories or codes in a categorical variable needs a description about what they mean.</li>
 </ol>
+</section>
 <section id="participants-and-personnel" class="level2">
 <h2 class="anchored" data-anchor-id="participants-and-personnel">Participants and Personnel</h2>
-<p>There are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is basically the same, and allows providing the usual details, such as name, salutation, and address.</p>
-<p>The categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization id - Position Name - Email - Address - Phone</p>
+<p>There are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is vary similar, and allows providing the usual details, such as name, salutation, and address.</p>
+<p>The categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization ID - Position Name - Email - Address - Phone</p>
 <p>You can provide information as desired but please be sure to at least provide full name, email, organization and ORICI ID if available for each person.</p>
 <section id="creators" class="level3">
 <h3 class="anchored" data-anchor-id="creators">Creators</h3>
@@ -285,7 +272,7 @@ Tip
 </section>
 <section id="contacts" class="level3">
 <h3 class="anchored" data-anchor-id="contacts">Contacts</h3>
-<p>Any correspondence about the dataset will be sent to this person.</p>
+<p>It is required to provide at least one person’s information as a contact. Any correspondence about the dataset will be sent to this person.</p>
 </section>
 <section id="associated-parties" class="level3">
 <h3 class="anchored" data-anchor-id="associated-parties">Associated Parties</h3>
@@ -293,7 +280,7 @@ Tip
 </section>
 <section id="metadata-providers" class="level3">
 <h3 class="anchored" data-anchor-id="metadata-providers">Metadata Providers</h3>
-<p>You! Presuming that you are a dataset author. Or anyone that is well versed witht the data to provide all the detailed metadata.</p>
+<p>You or anyone that is well versed with the data to provide all the detailed metadata.</p>
 </section>
 </section>
 <section id="abstract" class="level2">
@@ -323,7 +310,7 @@ Example
 </div>
 <div class="callout-body-container callout-body">
 <p>Data was collected at Palmyra Atoll National Wildlife Refuge located in the Central Pacific in 2014, and the work focuses on two species of Parrotfish, Chlorurus microrhinos and Chlorurus spilurus (formerly Cholrurus sordidus). For C. microrhinos, the project was designed to collect fine-scale spatial behavior data, focusing on territory size, species interactions, and benthic impact (i.e.&nbsp;feeding behavior). Focal follow data was collected by one or two observer(s), either on snorkel or SCUBA, and recording focal activity down to the second. Simultaneously, the observer would be towing a GPS that was recording a location every 5 seconds and each location was then associated with a particular behavior. Throughout this study individual fish were identifiable and successive follows were possible on individuals. For C. spilurus the focus of the project was to collect behavioral time budget data on feeding, territorial defense, and spawning behavior. The ‘Chlorurus_Area_Palmyra_2014.csv’ data only covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring. We also report the step length between successive points for the entire follow as well as where feeding was occurring.<br>
-The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in ’Fish_Information_Chlorurus_Data_2014.csv.</p>
+The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in <code>Fish_Information_Chlorurus_Data_2014.csv</code>.</p>
 </div>
 </div>
 </section>
@@ -335,7 +322,7 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 </section>
 <section id="intellectual-rights" class="level2">
 <h2 class="anchored" data-anchor-id="intellectual-rights">Intellectual Rights</h2>
-<p>EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data</p>
+<p>EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sharing of your data</p>
 <p>The options are:</p>
 <ul>
 <li><p><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 1.0 “No Rights Reserved”</a> - Less restrictive, no copy rights. You dedicate your data to the public domain.</p></li>
@@ -347,7 +334,7 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 <p>Here you present the physical location associated either with data collection (e.g., field work), data analyses (e.g., spatial extent of a model), or both. You can provide this information in different ways.</p>
 <ol type="1">
 <li><p>Provide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.</p></li>
-<li><p>Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.</p></li>
+<li><p>Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which location within the Atoll where the sample is from. You would repeat this process for each sampling location.</p></li>
 </ol>
 <p>The second option is more information rich but not always necessary or relevant. Either approach is acceptable.</p>
 <div class="collout-tip">
@@ -356,13 +343,12 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 </section>
 <section id="temporal-coverage" class="level2">
 <h2 class="anchored" data-anchor-id="temporal-coverage">Temporal Coverage</h2>
-<p>Information about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, , and should not include time spent, for example, analyzing data. You can provide a specific day or a year.</p>
+<p>Information about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, and should not include time spent, for example, analyzing data. You can provide a specific day or a year.</p>
 </section>
 <section id="taxonimic-coverage" class="level2">
 <h2 class="anchored" data-anchor-id="taxonimic-coverage">Taxonimic Coverage</h2>
-<p>“If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.</p>
+<p><strong>FROM CAP LTER</strong> <br> “If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.</p>
 <p>For each taxon, highlight the scientific name and taxonomic resolution of the organism using the Taxon Scientific Name and Taxon Rank drop-down lists, respectively. Details of most organisms are available through ITIS but draw upon different taxonomic authorities with the Taxonomic Authority drop-down if appropriate. Once you have identified the details, use the Fill Heirarchy button to have ezEML construct a full taxonomy for the organism. Save and Continue, then repeat for each taxon.”</p>
-<p><strong>FROM CAP LTER! NEED TO ADAPT</strong></p>
 </section>
 <section id="maintenance" class="level2">
 <h2 class="anchored" data-anchor-id="maintenance">Maintenance</h2>
@@ -378,7 +364,7 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 </section>
 <section id="project" class="level2">
 <h2 class="anchored" data-anchor-id="project">Project</h2>
-<p>If desired here you document the information about the project this data is part of. Filed in this section are</p>
+<p>If desired here you document the information about the project this data is part of. Fields in this section are</p>
 <ul>
 <li>Project title</li>
 <li>Project abstract</li>
@@ -391,7 +377,7 @@ The ‘Chlorurus_Activity_Palmyra_2014.csv’ is for both C. Microrhinos and C. 
 </section>
 <section id="other-entities" class="level2">
 <h2 class="anchored" data-anchor-id="other-entities">Other Entities</h2>
-<p>Any other file that is not a data table (tabular data) can be part of your data package as “other entity”. This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.</p>
+<p>Any other file that is not a data table (tabular data) can be part of your data package as “other entity”. This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files. EDI accepts data in all types of formats, however, non-proprietary formats are highly encouraged for open access and reuse.</p>
 <div class="callout-warning callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -402,10 +388,10 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>MENTION SOMTHING ABOUT SPATIAL DATA</strong></p>
+<p>Spatial data can be saves into zip files and published under <em>Other Entities</em>. Make sure to describe the content of each file in detail. See example of a data package with spatial data <a href="https://portal.edirepository.org/nis/mapbrowse?scope=edi&amp;identifier=98">here</a></p>
 </div>
 </div>
-<p>For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format</p>
+<p>For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Description about the entity - Name of the file - Format</p>
 <div class="callout-tip callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">

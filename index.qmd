@@ -9,16 +9,16 @@ We are working with the [Environmental Data Initiative (EDI)](https://edireposit
 
 ### What you need to do
 - Read this guide carefully to familiarize yourself with basic concepts on publishing environmental/ecological data.
-- Look into the **"Your turn"** section at the end of this guide and see the things and steps you need to have in place to do successfully publish your data.
+- Look into the **"Your turn"** section at the end of this guide. Here you well find step by step what you need to have in place to successfully publish your data.
 
 
 ### Why PADL?
 
-We want a centralized place where scientists and managers can access all data collected at Palmyra Atoll. Data are among the most valuable outputs of research. If no one can access these data, all the data collection is a shocking waste of resources. An open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understanding historical patterns and baselines in a changing world. PADL wants to make it easy for scientists to know and access research done at Palmyra in the past.
+We want a centralized place where scientists and managers can access all data collected at Palmyra Atoll. Data are among the most valuable outputs of research. If no one can access these data, all the data collection can be a waste of resources. An open data library allows for aggregating and synthesizing data from different contexts. This is essential to establishing broader ecological knowledge and informing conservation management. Long-term data are crucial to understanding historical patterns and baselines in a changing world. PADL wants to make it easy for scientists to know and access research done at Palmyra in the past.
 
 
 ### Questions?
-Please contact XXXX XXXXX
+Please contact [ADD CONTACT INFORMATION]
 
 
 ## Credits

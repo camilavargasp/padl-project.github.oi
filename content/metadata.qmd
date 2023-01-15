@@ -1,6 +1,6 @@
 # Metadata Components {.unnumbered}
 
-This section describes of the most relevant components of the EML. The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this along the way.
+This section describes of the most relevant components of the Ecological Metadata Language (EML). The goal is for you to learn about all information you need to document from your data from the get go. The next sections show formats that can help you do this in an organized manner along the way.
 
 ## Title
 
@@ -24,13 +24,14 @@ This are all the tabular data to be included in your data package, saved as a CS
 
 Following our example, the table below shows the information for the three data table in the parrotfish data package.
 
-::: collout-note
+::: callout-note
 ## Example
 
-| Data table title                | Data table description                                                                                                                      | File name                                |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Chlorurus Activity Palmyra 2014 | Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus | Chlorurus_Activity_Palmyra_2014.csv      |
-| Fish Information Chlorurus Data | Total length and phase for each individual in our study                                                                                     | Fish_Information_Chlorurus_Data_2014.csv |
+-   **Title:** Chlorurus Activity Palmyra 2014.
+
+-   **Data table description:** Reports the start and stop time of each focal follow as well as the start and stop time of each activity for C. Microrhinos and C. spilurus.
+
+-   **File name:** `Chlorurus_Activity_Palmyra_2014.csv`
 :::
 
 2.  Column properties It is necessary to describe the content of each data table with the following information.
@@ -40,21 +41,21 @@ Following our example, the table below shows the information for the three data 
 -   Type of data (Numeric, Text, Categorical, DateTime)
 -   If numeric provide units
 -   The precision of measurement (optional)
--   Format of dates (eg. YYY-MM-DD)
--   If there is missing values how are they coded (optional)
+-   Format of dates (eg. YYYY-MM-DD)
+-   If there is missing values how are they coded (e.g., NA values, optional)
 -   Explanation of why are there missing values (optional)
 
 ::: callout-tip
-ezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the *type* of data in each column.
+ezEML allows you to upload your data file to assist in generating the metadata describing each table. For example, it identifies each column name and the *type* of data (categorical, numerical, dates, etc.) in each column.
 :::
 
-3.  Defining codes in categorical variable Each of the unique categories or codes in a categorical variable needs a description about what they mean.
+3.  Define codes in categorical variable. Each of the unique categories or codes in a categorical variable needs a description about what they mean.
 
 ## Participants and Personnel
 
-There are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is basically the same, and allows providing the usual details, such as name, salutation, and address.
+There are several personnel roles associated with a dataset, including Creators, Contacts, Associated Parties, and Metadata Providers. The form for each role is vary similar, and allows providing the usual details, such as name, salutation, and address.
 
-The categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization id - Position Name - Email - Address - Phone
+The categories for these sections are: - Last Name - First Name - Middle Name - ORCID ID - Organization - Organization ID - Position Name - Email - Address - Phone
 
 You can provide information as desired but please be sure to at least provide full name, email, organization and ORICI ID if available for each person.
 
@@ -64,7 +65,7 @@ Creators are the dataset authors and/or primary project contributors. Dataset cr
 
 ### Contacts
 
-Any correspondence about the dataset will be sent to this person.
+It is required to provide at least one person's information as a contact. Any correspondence about the dataset will be sent to this person.
 
 ### Associated Parties
 
@@ -72,7 +73,7 @@ People who contributed to the project in some way but who are not considered dat
 
 ### Metadata Providers
 
-You! Presuming that you are a dataset author. Or anyone that is well versed witht the data to provide all the detailed metadata.
+You or anyone that is well versed with the data to provide all the detailed metadata.
 
 ## Abstract
 
@@ -86,7 +87,7 @@ You cannot use the same text from the abstract of a published work as the abstra
 ## Example
 
 Data was collected at Palmyra Atoll National Wildlife Refuge located in the Central Pacific in 2014, and the work focuses on two species of Parrotfish, Chlorurus microrhinos and Chlorurus spilurus (formerly Cholrurus sordidus). For C. microrhinos, the project was designed to collect fine-scale spatial behavior data, focusing on territory size, species interactions, and benthic impact (i.e. feeding behavior). Focal follow data was collected by one or two observer(s), either on snorkel or SCUBA, and recording focal activity down to the second. Simultaneously, the observer would be towing a GPS that was recording a location every 5 seconds and each location was then associated with a particular behavior. Throughout this study individual fish were identifiable and successive follows were possible on individuals. For C. spilurus the focus of the project was to collect behavioral time budget data on feeding, territorial defense, and spawning behavior. The 'Chlorurus_Area_Palmyra_2014.csv' data only covers C. Microrhinos and gives the 95% KUD area estimation for GPS towed tracks, as well as the 95% KUD area for locations where feeding was occurring. We also report the step length between successive points for the entire follow as well as where feeding was occurring.\
-The 'Chlorurus_Activity_Palmyra_2014.csv' is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in 'Fish_Information_Chlorurus_Data_2014.csv.
+The 'Chlorurus_Activity_Palmyra_2014.csv' is for both C. Microrhinos and C. spilurus and reports the start and stop time of each focal follow as well as the start and stop time of each activity. Activity descriptions can be found in the metadata and the total length and phase for each individual in our study can be found in `Fish_Information_Chlorurus_Data_2014.csv`.
 :::
 
 ## Keywords
@@ -99,7 +100,7 @@ PADL request to please include **Palmyra Atoll** as a keyword so we can keep tra
 
 ## Intellectual Rights
 
-EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sahring of your data
+EDI requires for your to choose under which licence you want your data to be published. This are both Creative Common licenses which allow open sharing of your data
 
 The options are:
 
@@ -113,7 +114,7 @@ Here you present the physical location associated either with data collection (e
 
 1.  Provide a single geographic description and set of bounding coordinates. In the case of the Palmyra Atoll, your would provide a single set of bounding coordinates that would encompass all of the sampling locations or complete Atoll.
 
-2.  Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which isllet on the Atoll the sample is from. You would repeat this process for each sampling location.
+2.  Provide separate, distinct geographic locations for each sampling location. Here you can provide coordinate of a specific point and describe which location within the Atoll where the sample is from. You would repeat this process for each sampling location.
 
 The second option is more information rich but not always necessary or relevant. Either approach is acceptable.
 
@@ -123,15 +124,13 @@ Coordinates must be provided as latitude and longitude in decimal degrees.
 
 ## Temporal Coverage
 
-Information about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, , and should not include time spent, for example, analyzing data. You can provide a specific day or a year.
+Information about when the project stared and when it ended. This should be the dates associated only to the data collection in this data package, and should not include time spent, for example, analyzing data. You can provide a specific day or a year.
 
 ## Taxonimic Coverage
 
-"If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.
+**FROM CAP LTER** <br> "If relevant (do not consider humans), provide details of the taxonomy of organisms featured in the study. You can provide these metadata through the Taxonomic Coverage link in the Contents menu.
 
 For each taxon, highlight the scientific name and taxonomic resolution of the organism using the Taxon Scientific Name and Taxon Rank drop-down lists, respectively. Details of most organisms are available through ITIS but draw upon different taxonomic authorities with the Taxonomic Authority drop-down if appropriate. Once you have identified the details, use the Fill Heirarchy button to have ezEML construct a full taxonomy for the organism. Save and Continue, then repeat for each taxon."
-
-**FROM CAP LTER! NEED TO ADAPT**
 
 ## Maintenance
 
@@ -149,7 +148,7 @@ Focal follow data was collected at two locations at Palmyra Atoll National Wildl
 
 ## Project
 
-If desired here you document the information about the project this data is part of. Filed in this section are
+If desired here you document the information about the project this data is part of. Fields in this section are
 
 -   Project title
 -   Project abstract
@@ -162,13 +161,13 @@ You can also add detailed information about project personnel. Fields in this se
 
 ## Other Entities
 
-Any other file that is not a data table (tabular data) can be part of your data package as "other entity". This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files.
+Any other file that is not a data table (tabular data) can be part of your data package as "other entity". This may be such things as images, zip files, R or Python scripts or any number of other items that are not tabular data files. EDI accepts data in all types of formats, however, non-proprietary formats are highly encouraged for open access and reuse.
 
 ::: callout-warning
-**MENTION SOMTHING ABOUT SPATIAL DATA**
+Spatial data can be saves into zip files and published under *Other Entities*. Make sure to describe the content of each file in detail. See example of a data package with spatial data [here](https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=98)
 :::
 
-For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Short description about the entity - Name of the file - Format
+For each entity you want to include in your data package you have to define, - The type of file (generally the extension of the file, eg and R script would be R) - Description about the entity - Name of the file - Format
 
 ::: callout-tip
 Similar to Data Tables, your can upload your file to ezEML and it will aromatically identify some of the metadata for this entity.
