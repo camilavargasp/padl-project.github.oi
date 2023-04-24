@@ -1,6 +1,6 @@
 # Using ezEML {.unnumbered}
 
-**ezEML** is EDI user-friendly tool that streamlined the process of creating metadata in the Ecological Metadata Language (EML). It is a form-based online application that leads the user step by step through creating an EML document. Here we walk through the process of using **ezEML** to document your data in the Ecological Metadata Language (EML). For more information check out EDI [ezEML User Guide](https://ezeml.edirepository.org/eml/user_guide).
+**ezEML** is EDI user-friendly tool that streamlines the process of creating metadata in the Ecological Metadata Language (EML). It is a form-based online application that leads the user step by step through creating an EML document. Here we walk through the process of using **ezEML** to document your data in the Ecological Metadata Language (EML). For more information check out EDI [ezEML User Guide](https://ezeml.edirepository.org/eml/user_guide).
 
 ## Getting Started
 
@@ -16,5 +16,28 @@ You can log into ezEML with your Google, GitHub, or ORCiD credentials. All infor
 Once you click on the method of your choice, you will see a page where you can enter the corresponding user name and password.
 
 ### Start a new project
-Once you are logged in, you will have the option to start a new EML document or go back to editing an existing 
+Once you are logged in, you will have the option to start a new EML document or go back to editing an existing project. Select the corresponding option under the EML Documents menu in the upper left corner.
+
+![](pics/ezEML-create-new-file-2)
+
+If you are starting a new EML you will be prompted to name your "working project". This is different than your data package title. The name of your project is a working title for you to know which EML document you are working on. 
+
+It is important to remember that each data package need its own corresponding EML. This means, for every data package you want to publish, you will start a new project in ezEML.
+
+If your are coming back to edit the metadata of a ""project" you already started, you can navigate to the existing project through the EML Documents menu. If you go to EML Documents > Manage... you will see all the projects under your user name.
+
+:::callout-tip
+Remember that a **data package** is the unit of publication. This is an assemblage of metadata, the data itself, and any other file you want to publish with your data. You can include several data tables within a data package if necessary. The basic rule of thumb is to package your data in the form you would like to receive it.
+:::
+
+
+### Documenting Metadata
+Once you start a new project you can begin documenting your data according to each of the subtitles on the left side Content navigation bar.
+
+![](pic/ezEML-navigation-var)
+
+
+
+
+
 

@@ -4,8 +4,6 @@ Before we start, we want to introduce some relevant concepts related to data pub
 
 **Data Package**
 
--   EDI publishes data from the ecological and environmental sciences irrespective of funding origin.
-
 -   The *unit of publication* is called a data package.
 
 -   This is an assemblage of science metadata, the data itself, and any other file you want to publish with your data.
